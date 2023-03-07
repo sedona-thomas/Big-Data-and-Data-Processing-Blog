@@ -1,0 +1,18 @@
+{
+    "types": {
+        "field": "field of study",
+        "domain": "subfield of study",
+        "application": "type of use case for some field"
+    },
+    "tags": {
+        "CS": "computer science",
+        "HR": "human rights",
+        "EE": "electrical engineering",
+        "ML": "machine learning",
+        "NLP": "natural language processing",
+        "CV": "computer vision",
+        "data science": "data science",
+        "stats": "statistics",
+        "IoT": "internet of things"
+    }
+}

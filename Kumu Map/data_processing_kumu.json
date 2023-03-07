@@ -1,0 +1,668 @@
+{
+    "elements": [
+        {
+            "id": "e0",
+            "label": "data processing",
+            "type": "application",
+            "tags": [
+                "CS",
+                "data science"
+            ]
+        },
+        {
+            "id": "e00",
+            "label": "data subject",
+            "type": "actor",
+            "tags": [
+                "CS",
+                "data",
+                "actor",
+                "rights holder",
+                "GDPR"
+            ]
+        },
+        {
+            "id": "e000",
+            "label": "individual person",
+            "type": "actor",
+            "tags": [
+                "CS",
+                "data",
+                "actor",
+                "rights holder"
+            ]
+        },
+        {
+            "id": "e01",
+            "label": "data controller",
+            "type": "actor",
+            "tags": [
+                "CS",
+                "data",
+                "actor",
+                "perprtrator",
+                "GDPR"
+            ]
+        },
+        {
+            "id": "e010",
+            "label": "data broker",
+            "type": "actor",
+            "tags": [
+                "CS",
+                "data",
+                "actor",
+                "perprtrator"
+            ]
+        },
+        {
+            "id": "e011",
+            "label": "governments",
+            "type": "actor",
+            "tags": [
+                "CS",
+                "data",
+                "actor",
+                "perprtrator"
+            ]
+        },
+        {
+            "id": "e012",
+            "label": "corporations",
+            "type": "actor",
+            "tags": [
+                "CS",
+                "data",
+                "actor",
+                "perprtrator"
+            ]
+        },
+        {
+            "id": "e013",
+            "label": "private entities",
+            "type": "actor",
+            "tags": [
+                "CS",
+                "data",
+                "actor",
+                "perprtrator"
+            ]
+        },
+        {
+            "id": "e014",
+            "label": "General Data Protection Regulation (GDPR)",
+            "type": "regulation",
+            "tags": [
+                "CS",
+                "data",
+                "regulation",
+                "GDPR"
+            ]
+        },
+        {
+            "id": "e02",
+            "label": "data processor",
+            "type": "actor",
+            "tags": [
+                "CS",
+                "data",
+                "actor",
+                "perprtrator",
+                "GDPR"
+            ]
+        },
+        {
+            "id": "e03",
+            "label": "big data",
+            "type": "thing",
+            "tags": [
+                "CS",
+                "data"
+            ]
+        },
+        {
+            "id": "e1",
+            "label": "computer science",
+            "type": "field",
+            "tags": [
+                "CS"
+            ]
+        },
+        {
+            "id": "e10",
+            "label": "artificial intelligence (AI)",
+            "type": "domain",
+            "tags": [
+                "CS",
+                "AI"
+            ]
+        },
+        {
+            "id": "e11",
+            "label": "machine learning (ML)",
+            "type": "domain",
+            "tags": [
+                "CS",
+                "ML"
+            ]
+        },
+        {
+            "id": "e12",
+            "label": "natural language processing (NLP)",
+            "type": "domain",
+            "tags": [
+                "CS",
+                "NLP"
+            ]
+        },
+        {
+            "id": "e120",
+            "label": "NLP Applications",
+            "type": "domain",
+            "description": "text processing, text predictions, sentiment analysis, text classification, chatbots, virtual assistants, speech recognition, machine translation, auto-correct",
+            "tags": [
+                "CS",
+                "NLP"
+            ]
+        },
+        {
+            "id": "e121",
+            "label": "NLP/CV Applications",
+            "type": "domain",
+            "examples": [
+                "image captioning",
+                "video captioning"
+            ],
+            "tags": [
+                "CS",
+                "NLP",
+                "CV"
+            ]
+        },
+        {
+            "id": "e13",
+            "label": "computer vision (CV)",
+            "type": "domain",
+            "tags": [
+                "CS",
+                "CV"
+            ]
+        },
+        {
+            "id": "e130",
+            "label": "CV Applications",
+            "type": "domain",
+            "examples": [
+                "image recognition",
+                "self-driving cars",
+                "image filters",
+                "text recognition"
+            ],
+            "tags": [
+                "CS",
+                "CV"
+            ]
+        },
+        {
+            "id": "e14",
+            "label": "data science",
+            "type": "domain",
+            "tags": [
+                "CS",
+                "data science"
+            ]
+        },
+        {
+            "id": "e15",
+            "label": "internet of things (IoT)",
+            "type": "domain",
+            "tags": [
+                "CS",
+                "EE",
+                "IoT"
+            ]
+        },
+        {
+            "id": "e150",
+            "label": "location data",
+            "type": "data source",
+            "tags": [
+                "CS",
+                "EE",
+                "IoT",
+                "data source",
+                "data"
+            ]
+        },
+        {
+            "id": "e151",
+            "label": "usage data",
+            "type": "data source",
+            "tags": [
+                "CS",
+                "EE",
+                "IoT",
+                "data source",
+                "data"
+            ]
+        },
+        {
+            "id": "e152",
+            "label": "communication data",
+            "type": "data source",
+            "tags": [
+                "CS",
+                "EE",
+                "IoT",
+                "data source",
+                "data"
+            ]
+        },
+        {
+            "id": "e153",
+            "label": "wifi history",
+            "type": "data source",
+            "tags": [
+                "CS",
+                "EE",
+                "IoT",
+                "data source",
+                "data"
+            ]
+        },
+        {
+            "id": "e154",
+            "label": "nearby devices",
+            "type": "data source",
+            "tags": [
+                "CS",
+                "EE",
+                "IoT",
+                "data source",
+                "data"
+            ]
+        },
+        {
+            "id": "e155",
+            "label": "related devices",
+            "type": "data source",
+            "tags": [
+                "CS",
+                "EE",
+                "IoT",
+                "data source",
+                "data"
+            ]
+        },
+        {
+            "id": "e156",
+            "label": "friends' devices",
+            "type": "data source",
+            "tags": [
+                "CS",
+                "EE",
+                "IoT",
+                "data source",
+                "data"
+            ]
+        },
+        {
+            "id": "e150",
+            "label": "IoT Applications",
+            "type": "domain",
+            "examples": [
+                "smart devices",
+                "smart home",
+                "wearables",
+                "smart watches",
+                "smart phones",
+                "smart TVs"
+            ],
+            "tags": [
+                "CS",
+                "EE",
+                "IoT"
+            ]
+        },
+        {
+            "id": "e2",
+            "label": "human rights",
+            "type": "field",
+            "tags": [
+                "HR"
+            ]
+        },
+        {
+            "id": "e3",
+            "label": "statistics",
+            "type": "field",
+            "tags": [
+                "stats"
+            ]
+        },
+        {
+            "id": "e4",
+            "label": "electrical engineering",
+            "type": "field",
+            "tags": [
+                "EE"
+            ]
+        }
+    ],
+    "connections": [
+        {
+            "id": "c1e2",
+            "from": "e1",
+            "to": "e2",
+            "label": "technology ethics",
+            "direction": "directed"
+        },
+        {
+            "id": "c1e10",
+            "from": "e1",
+            "to": "e10",
+            "label": "",
+            "direction": "directed"
+        },
+        {
+            "id": "c1e11",
+            "from": "e1",
+            "to": "e11",
+            "label": "",
+            "direction": "directed"
+        },
+        {
+            "id": "c1e12",
+            "from": "e1",
+            "to": "e12",
+            "direction": "directed"
+        },
+        {
+            "id": "c1e13",
+            "from": "e1",
+            "to": "e13",
+            "label": "",
+            "direction": "directed"
+        },
+        {
+            "id": "c1e14",
+            "from": "e1",
+            "to": "e14",
+            "label": "",
+            "direction": "directed"
+        },
+        {
+            "id": "c1e15",
+            "from": "e1",
+            "to": "e15",
+            "label": "",
+            "direction": "directed"
+        },
+        {
+            "id": "c15e150",
+            "from": "e15",
+            "to": "e150",
+            "label": "type of data",
+            "direction": "directed"
+        },
+        {
+            "id": "c15e151",
+            "from": "e15",
+            "to": "e151",
+            "label": "type of data",
+            "direction": "directed"
+        },
+        {
+            "id": "c15e152",
+            "from": "e15",
+            "to": "e152",
+            "label": "type of data",
+            "direction": "directed"
+        },
+        {
+            "id": "c15e153",
+            "from": "e15",
+            "to": "e153",
+            "label": "type of data",
+            "direction": "directed"
+        },
+        {
+            "id": "c15e154",
+            "from": "e15",
+            "to": "e154",
+            "label": "type of data",
+            "direction": "directed"
+        },
+        {
+            "id": "c15e155",
+            "from": "e15",
+            "to": "e155",
+            "label": "type of data",
+            "direction": "directed"
+        },
+        {
+            "id": "c15e156",
+            "from": "e15",
+            "to": "e156",
+            "label": "type of data",
+            "direction": "directed"
+        },
+        {
+            "id": "c10e0",
+            "from": "e10",
+            "to": "e0",
+            "label": "uses",
+            "direction": "directed"
+        },
+        {
+            "id": "c11e0",
+            "from": "e11",
+            "to": "e0",
+            "label": "uses",
+            "direction": "directed"
+        },
+        {
+            "id": "c12e0",
+            "from": "e12",
+            "to": "e0",
+            "label": "uses",
+            "direction": "directed"
+        },
+        {
+            "id": "c13e0",
+            "from": "e13",
+            "to": "e0",
+            "label": "uses",
+            "direction": "directed"
+        },
+        {
+            "id": "c14e0",
+            "from": "e14",
+            "to": "e0",
+            "label": "uses",
+            "direction": "directed"
+        },
+        {
+            "id": "c3e10",
+            "from": "e3",
+            "to": "e10",
+            "label": "",
+            "direction": "directed"
+        },
+        {
+            "id": "c3e11",
+            "from": "e3",
+            "to": "e11",
+            "label": "",
+            "direction": "directed"
+        },
+        {
+            "id": "c3e12",
+            "from": "e3",
+            "to": "e12",
+            "label": "",
+            "direction": "directed"
+        },
+        {
+            "id": "c3e13",
+            "from": "e3",
+            "to": "e13",
+            "label": "",
+            "direction": "directed"
+        },
+        {
+            "id": "c3e14",
+            "from": "e3",
+            "to": "e14",
+            "label": "",
+            "direction": "directed"
+        },
+        {
+            "id": "c4e15",
+            "from": "e4",
+            "to": "e15",
+            "label": "",
+            "direction": "directed"
+        },
+        {
+            "id": "c12e120",
+            "from": "e12",
+            "to": "e120",
+            "label": "applications",
+            "direction": "directed"
+        },
+        {
+            "id": "c12e121",
+            "from": "e12",
+            "to": "e121",
+            "label": "applications",
+            "direction": "directed"
+        },
+        {
+            "id": "c13e121",
+            "from": "e13",
+            "to": "e121",
+            "label": "applications",
+            "direction": "directed"
+        },
+        {
+            "id": "c13e130",
+            "from": "e13",
+            "to": "e130",
+            "label": "applications",
+            "direction": "directed"
+        },
+        {
+            "id": "c15e150",
+            "from": "e15",
+            "to": "e150",
+            "label": "applications",
+            "direction": "directed"
+        },
+        {
+            "id": "c0e00",
+            "from": "e0",
+            "to": "e00",
+            "label": "",
+            "direction": "directed"
+        },
+        {
+            "id": "c00e000",
+            "from": "e00",
+            "to": "e000",
+            "label": "example",
+            "direction": "directed"
+        },
+        {
+            "id": "c01e010",
+            "from": "e01",
+            "to": "e010",
+            "label": "example",
+            "direction": "directed"
+        },
+        {
+            "id": "c01e011",
+            "from": "e01",
+            "to": "e011",
+            "label": "example",
+            "direction": "directed"
+        },
+        {
+            "id": "c01e012",
+            "from": "e01",
+            "to": "e012",
+            "label": "example",
+            "direction": "directed"
+        },
+        {
+            "id": "c01e013",
+            "from": "e01",
+            "to": "e013",
+            "label": "example",
+            "direction": "directed"
+        },
+        {
+            "id": "c0e01",
+            "from": "e0",
+            "to": "e01",
+            "label": "",
+            "direction": "directed"
+        },
+        {
+            "id": "c0e02",
+            "from": "e0",
+            "to": "e02",
+            "label": "",
+            "direction": "directed"
+        },
+        {
+            "id": "c0e03",
+            "from": "e0",
+            "to": "e03",
+            "label": "processes",
+            "direction": "directed"
+        },
+        {
+            "id": "c010e011",
+            "from": "e010",
+            "to": "e011",
+            "label": "sells to",
+            "direction": "directed"
+        },
+        {
+            "id": "c010e012",
+            "from": "e010",
+            "to": "e012",
+            "label": "sells to",
+            "direction": "directed"
+        },
+        {
+            "id": "c010e013",
+            "from": "e010",
+            "to": "e013",
+            "label": "sells to",
+            "direction": "directed"
+        },
+        {
+            "id": "c014e00",
+            "from": "e014",
+            "to": "e00",
+            "label": "creates",
+            "direction": "directed"
+        },
+        {
+            "id": "c014e01",
+            "from": "e014",
+            "to": "e01",
+            "label": "creates",
+            "direction": "directed"
+        },
+        {
+            "id": "c014e02",
+            "from": "e014",
+            "to": "e02",
+            "label": "creates",
+            "direction": "directed"
+        }
+    ]
+}
