@@ -1,5 +1,20 @@
 {
     "columns": {
+        "AI/ML Tools": [
+            {
+                "title": "DALL·E 2",
+                "link": "https://openai.com/dall-e-2/",
+                "description": "The DALL·E 2 image generation model is an AI system that generates synthetic images from a written description."
+            }
+        ],
+        "Web-Based Coding Tools": [
+            {
+                "title": "JupyterLite",
+                "link": "https://blog.jupyter.org/jupyter-everywhere-f8151c2cc6e8",
+                "description": "Python Read-Evaluate-Print-Loop that can be embedded in a webpage as an iframe",
+                "example usage": '<iframe src="https://jupyterlite.github.io/demo/repl/index.html?kernel=python&toolbar=1" width="100%" height="500px"></iframe>'
+            }
+        ]
         "Advocate Groups": [
             {
                 "title": "AlgorithmWatch",
@@ -39,95 +54,160 @@
         ],
         "Data Rights": [
             {
-                "title": "",
-                "link": "",
-                "description": ""
+                "title": "Blueprint for an AI Bill of Rights - The White House",
+                "link": "https://www.whitehouse.gov/ostp/ai-bill-of-rights/",
+                "description": "This webpage from the White House outlines the major concerns of data collection and algorithmic decision-making and contextualizes how rights can be applied to these concerns."
             },
             {
-                "title": "",
-                "link": "",
-                "description": ""
+                "title": "General Data Protection Regulation (GDPR)",
+                "link": "https://gdpr-info.eu/",
+                "description": "The General Data Protection Regulation (GDPR) is the most comprehensive digital rights protection regulations to date. It introduces the idea of a data subject as an entity with specific rights and a data controller and data processor as entities with specific obligations."
             },
             {
-                "title": "",
-                "link": "",
-                "description": ""
+                "title": "Ten Questions—And Answers—About the California Consumer Privacy Act",
+                "link": "https://www.eff.org/deeplinks/2020/01/ten-questions-and-answers-about-california-consumer-privacy-act",
+                "description": "This website from the Electronic Frontier Foundation answers common questions about the California Consumer Privacy Act and its effect on users."
+            },
+            {
+                "title": "AI Universal Guidelines",
+                "link": "https://thepublicvoice.org/ai-universal-guidelines/",
+                "description": "This webpage contains the non-profit the Public Voice's Universal Guidelines for Artificial Intelligence. The Public Voice is a coalition created by the nonprofit Electronic Privacy Information Center (EPIC) that advocates for public participation in decisions concerning the future of the Internet."
+            },
+            {
+                "title": "The Privacy Act of 1974",
+                "link": "https://epic.org/the-privacy-act-of-1974/",
+                "description": "This webpage explains the Privacy Act of 1974, one of the earliest data privacy regulations in the United States."
+            },
+            {
+                "title": "2021 Consumer Data Privacy Legislation",
+                "link": "https://www.ncsl.org/technology-and-communication/2021-consumer-data-privacy-legislation",
+                "description": "This webpage lists privacy regulations throughout the United States by state."
             }
         ],
         "Data Collection": [
             {
-                "title": "",
-                "link": "",
-                "description": ""
+                "title": "Data Brokers",
+                "link": "https://epic.org/issues/consumer-privacy/data-brokers/",
+                "description": "This webpage by the Electronic Privacy Information Center (EPIC) outlines what data brokers are and how they disseminate personal data."
             },
             {
-                "title": "",
-                "link": "",
-                "description": ""
+                "title": "How data brokers find and sell your personal info",
+                "link": "https://us.norton.com/blog/privacy/how-data-brokers-find-and-sell-your-personal-info#",
+                "description": "This article by Norton (one of the most prominent anti-virus providers) outlines the major features of data brokers."
             },
             {
-                "title": "",
-                "link": "",
-                "description": ""
+                "title": "What We Learned From Apple’s New Privacy Labels",
+                "link": "https://www.nytimes.com/2021/01/27/technology/personaltech/apple-privacy-labels.html",
+                "description": "This article contextualizes the Apple app store's privacy labels and explains what is revealed by the information contained in these labels."
+            },
+            {
+                "title": "‘Anonymized’ Data Is Meaningless Bullshit",
+                "link": "https://gizmodo.com/anonymized-data-is-meaningless-bullshit-1841429952",
+                "description": "This article discusses the issues with seemingly anonymous datasets and how they can be directly connected to individual people."
+            },
+            {
+                "title": "Your Apps Know Where You Were Last Night, and They’re Not Keeping It Secret",
+                "link": "https://www.nytimes.com/interactive/2018/12/10/business/location-data-privacy-apps.html",
+                "description": "This article outlines the different sources of location data collected by applications and how this affects users."
+            },
+            {
+                "title": "Twelve Million Phones, One Dataset, Zero Privacy",
+                "link": "https://www.nytimes.com/interactive/2019/12/19/opinion/location-tracking-cell-phone.html",
+                "description": "This interactive series outlines a variety of issues with privacy and location data collected on users."
+            },
+            {
+                "title": "Federal Agencies Use Cellphone Location Data for Immigration Enforcement",
+                "link": "https://www.wsj.com/articles/federal-agencies-use-cellphone-location-data-for-immigration-enforcement-11581078600",
+                "description": "This article describes efforts by the Trump administration to monitor the Mexican border for immigration enforcement."
+            },
+            {
+                "title": "Generating user information for use in targeted advertising - Google Patents",
+                "link": "https://patents.google.com/patent/US20050131762A1/en",
+                "description": "This patent by Google outlines Google's structure for targeted advertising and how they generate additional information about users."
             }
         ],
         "Artificial Intelligence/Machine Learning": [
             {
-                "title": "",
-                "link": "",
-                "description": ""
-            },
-            {
-                "title": "",
-                "link": "",
-                "description": ""
-            },
-            {
-                "title": "",
-                "link": "",
-                "description": ""
+                "title": "Machine Bias: COMPAS",
+                "link": "https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing",
+                "description": "This study details how predicted scores for recidivism in Broward County, FL differed based on a person's race in the COMPAS recidivism prediction algorithm."
             }
         ],
         "Natural Language Processing": [
             {
-                "title": "",
-                "link": "",
+                "title": "The new AI tools spreading fake news in politics and business",
+                "link": "https://www.ft.com/content/55a39e92-8357-11ea-b872-8db45d5f6714",
                 "description": ""
             },
             {
-                "title": "",
-                "link": "",
+                "title": "Thousands of Amazon Workers Listen to Alexa Users' Conversations",
+                "link": "https://time.com/5568815/amazon-workers-listen-to-alexa/",
                 "description": ""
             },
             {
-                "title": "",
-                "link": "",
+                "title": "Is Siri Sexist? UN Report Finds Gender Bias in Virtual Assistants",
+                "link": "https://tech.co/news/siri-sexist-un-gender-bias-virtual-assistants-2019-05",
+                "description": ""
+            },
+            {
+                "title": "Amazon scraps secret AI recruiting tool that showed bias against women",
+                "link": "https://www.reuters.com/article/us-amazon-com-jobs-automation-insight/amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK08G",
+                "description": ""
+            },
+            {
+                "title": "What did they know, and when did they know it? The Microsoft Bing edition.",
+                "link": "https://garymarcus.substack.com/p/what-did-they-know-and-when-did-they?sd=pf",
+                "description": ""
+            },
+            {
+                "title": "5 Free ChatGPT Competitors You Should Know About For 2023.",
+                "link": "https://artificialintelligencemadesimple.substack.com/p/5-free-chatgpt-competitors-you-should?utm_source=substack&utm_campaign=post_embed&utm_medium=web",
                 "description": ""
             }
         ],
         "Computer Vision": [
             {
-                "title": "",
-                "link": "",
-                "description": ""
+                "title": "Deepfakes, Revenge Porn, And The Impact On Women",
+                "link": "https://www.forbes.com/sites/chenxiwang/2019/11/01/deepfakes-revenge-porn-and-the-impact-on-women/?sh=76d874441f53",
+                "description": "This article explains the impact of deepfake videos on revenge porn and the rights of women. These synthesized deepfake videos overlay someone's likeness over a true subject of a video in a highly realistic manner, and these types of videos have gained traction as a method of synthesizing pornography with subjects who have not participated in the depicted actions."
             },
             {
-                "title": "",
-                "link": "",
-                "description": ""
+                "title": "Where Are The Deepfakes In This Presidential Election?",
+                "link": "https://www.npr.org/2020/10/01/918223033/where-are-the-deepfakes-in-this-presidential-election",
+                "description": "This article contextualizes the use of deepfake videos (synthetic videos with a non-participating subject) during presidential elections and analyzes the risks of these types of videos."
             },
             {
-                "title": "",
-                "link": "",
-                "description": ""
+                "title": "China’s Efforts to Lead the Way in AI Start in Its Classrooms",
+                "link": "https://www.wsj.com/articles/chinas-efforts-to-lead-the-way-in-ai-start-in-its-classrooms-11571958181",
+                "description": "This article details a variety of digital technologies in use in Chinese classrooms. It specifically focuses on predictive technologies including facial recognition and movement tracking of students (see also https://www.youtube.com/watch?v=JMLsHI8aV0g)."
+            },
+            {
+                "title": "Self-driving cars have to be safer than regular cars. The question is how much.",
+                "link": "https://www.vox.com/recode/2019/5/17/18564501/self-driving-car-morals-safety-tesla-waymo",
+                "description": "This article contextualizes the current state of self driving cars and the most prominent risks of their incorporation into daily life."
+            },
+            {
+                "title": "Gender Shades",
+                "link": "http://gendershades.org/",
+                "description": "This digital tool reveals the issues with accuracy in image classification tools that recognize gender from IBM, Microsoft, and Face++ AI with a particular focus on accuracy based on skin color."
+            },
+            {
+                "title": "Google ‘fixed’ its racist algorithm by removing gorillas from its image-labeling tech",
+                "link": "https://www.theverge.com/2018/1/12/16882408/google-racist-gorillas-photo-recognition-algorithm-ai",
+                "description": "This article describes the controversy surrounding Google's response to a image classifier labeling people of color as 'gorillas.'"
             }
         ],
-        "Coding Tools": [
+        "Data Processing Blogs": [],
+        "Human Rights Reports": [
             {
-                "title": "JupyterLite",
-                "link": "https://blog.jupyter.org/jupyter-everywhere-f8151c2cc6e8",
-                "description": "Python Read-Evaluate-Print-Loop that can be embedded in a webpage as an iframe",
-                "example usage": '<iframe src="https://jupyterlite.github.io/demo/repl/index.html?kernel=python&toolbar=1" width="100%" height="500px"></iframe>'
+                "title": "Minority and Indigenous Trends 2020: Focus on Technology",
+                "link": "https://www.ohchr.org/sites/default/files/Documents/Issues/Racism/SR/RaceBordersDigitalTechnologies/Minority_Rights_Group_International.pdf",
+                "description": ""
+            },
+            {
+                "title": "Automating Society Report 2020",
+                "link": "https://automatingsociety.algorithmwatch.org/",
+                "description": ""
             }
         ]
     }
