@@ -10,6 +10,7 @@
                 "title": "ChatGPT",
                 "link": "https://openai.com/blog/chatgpt",
                 "description": "ChatGPT is an AI powered chatbot that can interact with users in a conversational manner and is built off of the GPT3 language generation model.",
+                "year": 2022,
                 "tags": [
                     "NLP",
                     "chatbot",
@@ -21,6 +22,7 @@
                 "title": "InstructGPT",
                 "link": "https://openai.com/research/instruction-following",
                 "description": "InstructGPT is an AI powered chatbot that can interact with users in a conversational manner and is built off of the GPT3 language generation model. This model was trained more directly by humans than ChatGPT and is intended to be more truthful and less toxic.",
+                "year": 2023,
                 "tags": [
                     "NLP",
                     "chatbot",
@@ -32,6 +34,18 @@
                 "title": "DALL·E 2",
                 "link": "https://openai.com/dall-e-2/",
                 "description": "The DALL·E 2 image generation model is an AI system that generates synthetic images from a written description.",
+                "year": 2022,
+                "tags": [
+                    "CV",
+                    "image generator",
+                    "OpenAI"
+                ]
+            },
+            {
+                "title": "DALL·E",
+                "link": "",
+                "description": "The original DALL·E image generation model is an AI system that generates synthetic images from a written description.",
+                "year": 2021,
                 "tags": [
                     "CV",
                     "image generator",
@@ -42,9 +56,111 @@
                 "title": "Bing Chat",
                 "link": "https: //www.microsoft.com/en-us/bing",
                 "description": "The new Bing Chat feature of the Bing web browser is an interactive chatbot that can repeatedly refine searches, summarize and directly cite search results, and generate text from a prompt. Bing Chat is built off of the GPT-4 language generation model but has web search capabilities built-in which provides more accuracy in citations than ChatGPT.",
-                "tags": ["NLP", "chatbot", "GPT4", "Bing"]
+                "year": 2023,
+                "tags": [
+                    "NLP",
+                    "chatbot",
+                    "GPT4",
+                    "Bing"
+                ]
+            },
+            {
+                "title": "Open Pre-trained Transformer (OPT)",
+                "link": "https://ai.facebook.com/blog/democratizing-access-to-large-scale-language-models-with-opt-175b/",
+                "description": "",
+                "documentation link": "https://huggingface.co/docs/transformers/model_doc/opt",
+                "year": 2022,
+                "tags": [
+                    "NLP",
+                    "language model",
+                    "Meta AI",
+                    "open source"
+                ]
+            },
+            {
+                "title": "Generative Pre-trained Transformer (GPT) 4",
+                "link": "https://openai.com/product/gpt-4",
+                "description": "",
+                "year": 2023,
+                "tags": [
+                    "NLP",
+                    "language model",
+                    "OpenAI"
+                ]
+            },
+            {
+                "title": "Generative Pre-trained Transformer (GPT) 3",
+                "link": "",
+                "description": "",
+                "year": 2020,
+                "tags": [
+                    "NLP",
+                    "language model",
+                    "OpenAI"
+                ]
+            },
+            {
+                "title": "Pathways Language Model (PaLM)",
+                "link": "https://ai.googleblog.com/2022/04/pathways-language-model-palm-scaling-to.html",
+                "description": "",
+                "year": 2022,
+                "tags": [
+                    "NLP",
+                    "language model",
+                    "Google"
+                ]
+            },
+            {
+                "title": "Sphere",
+                "link": "https://ai.facebook.com/blog/introducing-sphere-meta-ais-web-scale-corpus-for-better-knowledge-intensive-nlp/",
+                "description": "",
+                "documentation link": "https://github.com/facebookresearch/sphere",
+                "year": 2022,
+                "tags": [
+                    "NLP",
+                    "language model",
+                    "Meta AI",
+                    "open source",
+                    "white box"
+                ]
+            },
+            {
+                "title": "BLOOM",
+                "link": "https: //bigscience.huggingface.co/blog/bloom",
+                "description": "",
+                "documentation link": "https://huggingface.co/bigscience/bloom",
+                "year": 2022,
+                "tags": [
+                    "NLP",
+                    "language model",
+                    "Big Science",
+                    "open source",
+                    "multilingual",
+                    "responsible AI license"
+                ]
+            },
+            {
+                "title": "Language Model for Dialogue Applications (LaMDA)",
+                "link": "https://blog.google/technology/ai/lamda/",
+                "description": "",
+                "year": 2021,
+                "tags": [
+                    "NLP",
+                    "language model",
+                    "Google"
+                ]
+            },
+            {
+                "title": "BARD",
+                "link": "https://blog.google/technology/ai/bard-google-ai-search-updates/",
+                "description": "",
+                "year": 2023,
+                "tags": [
+                    "NLP",
+                    "chatbot",
+                    "Google"
+                ]
             }
-            
         ],
         "Web-Based Coding Tools": [
             {
@@ -53,7 +169,20 @@
                 "description": "Python Read-Evaluate-Print-Loop that can be embedded in a webpage as an iframe",
                 "example usage": '<iframe src="https://jupyterlite.github.io/demo/repl/index.html?kernel=python&toolbar=1" width="100%" height="500px"></iframe>'
             }
-        ]
+        ],
+        "AI Ethics Codes": [
+            {
+                "title": "Responsible AI License",
+                "link": "https://www.licenses.ai/",
+                "description": "",
+                "research paper": "https://facctconference.org/static/pdfs_2022/facct22-63.pdf"
+            },
+            {
+                "title": "AI at Google: our principles",
+                "link": "https://www.blog.google/technology/ai/ai-principles/",
+                "description": ""
+            }
+        ],
         "Advocate Groups": [
             {
                 "title": "AlgorithmWatch",
@@ -236,7 +365,18 @@
                 "description": "This article describes the controversy surrounding Google's response to a image classifier labeling people of color as 'gorillas.'"
             }
         ],
-        "Data Processing Blogs": [],
+        "Data Processing Blogs/Blog Posts": [
+            {
+                "title": "MIT Technology Review",
+                "link": "https://www.technologyreview.com/",
+                "description": ""
+            },
+            {
+                "title": "Timeline of AI and language models",
+                "link": "https://lifearchitect.ai/timeline/",
+                "description": "The blog post provides a timeline of major artificial intelligence and natural language processing models."
+            }
+        ],
         "Human Rights Reports": [
             {
                 "title": "Minority and Indigenous Trends 2020: Focus on Technology",
