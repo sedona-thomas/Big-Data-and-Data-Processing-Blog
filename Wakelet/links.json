@@ -1,11 +1,50 @@
 {
+    "Basic Schema": {
+        "title": "",
+        "link": "",
+        "description": ""
+    },
     "columns": {
         "AI/ML Tools": [
             {
+                "title": "ChatGPT",
+                "link": "https://openai.com/blog/chatgpt",
+                "description": "ChatGPT is an AI powered chatbot that can interact with users in a conversational manner and is built off of the GPT3 language generation model.",
+                "tags": [
+                    "NLP",
+                    "chatbot",
+                    "GPT3",
+                    "OpenAI"
+                ]
+            },
+            {
+                "title": "InstructGPT",
+                "link": "https://openai.com/research/instruction-following",
+                "description": "InstructGPT is an AI powered chatbot that can interact with users in a conversational manner and is built off of the GPT3 language generation model. This model was trained more directly by humans than ChatGPT and is intended to be more truthful and less toxic.",
+                "tags": [
+                    "NLP",
+                    "chatbot",
+                    "GPT3",
+                    "OpenAI"
+                ]
+            },
+            {
                 "title": "DALL·E 2",
                 "link": "https://openai.com/dall-e-2/",
-                "description": "The DALL·E 2 image generation model is an AI system that generates synthetic images from a written description."
+                "description": "The DALL·E 2 image generation model is an AI system that generates synthetic images from a written description.",
+                "tags": [
+                    "CV",
+                    "image generator",
+                    "OpenAI"
+                ]
+            },
+            {
+                "title": "Bing Chat",
+                "link": "https: //www.microsoft.com/en-us/bing",
+                "description": "The new Bing Chat feature of the Bing web browser is an interactive chatbot that can repeatedly refine searches, summarize and directly cite search results, and generate text from a prompt. Bing Chat is built off of the GPT-4 language generation model but has web search capabilities built-in which provides more accuracy in citations than ChatGPT.",
+                "tags": ["NLP", "chatbot", "GPT4", "Bing"]
             }
+            
         ],
         "Web-Based Coding Tools": [
             {
