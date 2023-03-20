@@ -1,0 +1,134 @@
+{
+    "columns": {
+        "Advocate Groups": [
+            {
+                "title": "AlgorithmWatch",
+                "link": "https://algorithmwatch.org/en/",
+                "description": "AlgorithmWatch is a non-profit research and advocacy organization focused on algorithmic decision-making and the use of artificial intelligence in a variety of domains."
+            },
+            {
+                "title": "The Public Voice",
+                "link": "https://thepublicvoice.org/",
+                "description": "The Public Voice is a coalition created by the nonprofit Electronic Privacy Information Center (EPIC) that advocates for public participation in decisions concerning the future of the Internet."
+            },
+            {
+                "title": "Electronic Privacy Information Center (EPIC)",
+                "link": "https://epic.org/",
+                "description": "The Electronic Privacy Information Center (EPIC) is a non-profit research organization that focuses on policy, advocacy, and litigation for digital rights."
+            },
+            {
+                "title": "All Tech Is Human",
+                "link": "https://alltechishuman.org/",
+                "description": "All Tech Is Human is a non-profit that does work in the intersection of technology and society."
+            },
+            {
+                "title": "Privacy International (PI)",
+                "link": "https://privacyinternational.org/",
+                "description": "Privacy International (PI) is an international charity that works in the space of technology and human rights."
+            },
+            {
+                "title": "Electronic Frontier Foundation (EFF)",
+                "link": "https://www.eff.org/",
+                "description": "The Electronic Frontier Foundation (EFF) is a non-profit that promotes digital privacy and free speech."
+            },
+            {
+                "title": "The Internet Society",
+                "link": "https://www.internetsociety.org/",
+                "description": "The Internet Society is a global nonprofit working toward the development of standards and protocols for the Internet with a focus on trust, transparency, and security."
+            }
+        ],
+        "Data Rights": [
+            {
+                "title": "",
+                "link": "",
+                "description": ""
+            },
+            {
+                "title": "",
+                "link": "",
+                "description": ""
+            },
+            {
+                "title": "",
+                "link": "",
+                "description": ""
+            }
+        ],
+        "Data Collection": [
+            {
+                "title": "",
+                "link": "",
+                "description": ""
+            },
+            {
+                "title": "",
+                "link": "",
+                "description": ""
+            },
+            {
+                "title": "",
+                "link": "",
+                "description": ""
+            }
+        ],
+        "Artificial Intelligence/Machine Learning": [
+            {
+                "title": "",
+                "link": "",
+                "description": ""
+            },
+            {
+                "title": "",
+                "link": "",
+                "description": ""
+            },
+            {
+                "title": "",
+                "link": "",
+                "description": ""
+            }
+        ],
+        "Natural Language Processing": [
+            {
+                "title": "",
+                "link": "",
+                "description": ""
+            },
+            {
+                "title": "",
+                "link": "",
+                "description": ""
+            },
+            {
+                "title": "",
+                "link": "",
+                "description": ""
+            }
+        ],
+        "Computer Vision": [
+            {
+                "title": "",
+                "link": "",
+                "description": ""
+            },
+            {
+                "title": "",
+                "link": "",
+                "description": ""
+            },
+            {
+                "title": "",
+                "link": "",
+                "description": ""
+            }
+        ],
+        "Coding Tools": [
+            {
+                "title": "JupyterLite",
+                "link": "https://blog.jupyter.org/jupyter-everywhere-f8151c2cc6e8",
+                "description": "Python Read-Evaluate-Print-Loop that can be embedded in a webpage as an iframe",
+                "example usage": '<iframe src="https://jupyterlite.github.io/demo/repl/index.html?kernel=python&toolbar=1" width="100%" height="500px"></iframe>'
+            }
+        ]
+    }
+}
