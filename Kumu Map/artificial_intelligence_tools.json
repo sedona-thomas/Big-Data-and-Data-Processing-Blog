@@ -1,0 +1,300 @@
+{
+    "elements": [
+        {
+            "id": "e0",
+            "label": "Natural Language Processing (NLP)",
+            "type": "domain",
+            "tags": [
+                "NLP"
+            ]
+        },
+        {
+            "id": "e1",
+            "label": "Natural Language Processing (NLP)",
+            "type": "domain",
+            "tags": [
+                "NLP"
+            ]
+        },
+        {
+            "id": "e00",
+            "label": "ChatGPT",
+            "type": "application",
+            "link": "https://openai.com/blog/chatgpt",
+            "description": "ChatGPT is an AI powered chatbot that can interact with users in a conversational manner and is built off of the GPT3 language generation model.",
+            "year": 2022,
+            "tags": [
+                "NLP",
+                "chatbot",
+                "GPT3",
+                "OpenAI"
+            ]
+        },
+        {
+            "id": "e01",
+            "label": "InstructGPT",
+            "type": "application",
+            "link": "https://openai.com/research/instruction-following",
+            "description": "InstructGPT is an AI powered chatbot that can interact with users in a conversational manner and is built off of the GPT3 language generation model. This model was trained more directly by humans than ChatGPT and is intended to be more truthful and less toxic.",
+            "year": 2023,
+            "tags": [
+                "NLP",
+                "chatbot",
+                "GPT3",
+                "OpenAI"
+            ]
+        },
+        {
+            "id": "e02",
+            "label": "Language Model for Dialogue Applications (LaMDA)",
+            "type": "application",
+            "link": "https://blog.google/technology/ai/lamda/",
+            "description": "",
+            "year": 2021,
+            "tags": [
+                "NLP",
+                "language model",
+                "Google"
+            ]
+        },
+        {
+            "id": "e03",
+            "label": "BARD",
+            "type": "application",
+            "link": "https://blog.google/technology/ai/bard-google-ai-search-updates/",
+            "description": "",
+            "year": 2023,
+            "tags": [
+                "NLP",
+                "chatbot",
+                "Google"
+            ]
+        },
+        {
+            "id": "e04",
+            "label": "Bing Chat",
+            "type": "application",
+            "link": "https: //www.microsoft.com/en-us/bing",
+            "description": "The new Bing Chat feature of the Bing web browser is an interactive chatbot that can repeatedly refine searches, summarize and directly cite search results, and generate text from a prompt. Bing Chat is built off of the GPT-4 language generation model but has web search capabilities built-in which provides more accuracy in citations than ChatGPT.",
+            "year": 2023,
+            "tags": [
+                "NLP",
+                "chatbot",
+                "GPT4",
+                "Bing"
+            ]
+        },
+        {
+            "id": "e05",
+            "label": "Open Pre-trained Transformer (OPT)",
+            "type": "application",
+            "link": "https://ai.facebook.com/blog/democratizing-access-to-large-scale-language-models-with-opt-175b/",
+            "description": "",
+            "documentation link": "https://huggingface.co/docs/transformers/model_doc/opt",
+            "year": 2022,
+            "tags": [
+                "NLP",
+                "language model",
+                "Meta AI",
+                "open source"
+            ]
+        },
+        {
+            "id": "e06",
+            "label": "Generative Pre-trained Transformer (GPT) 4",
+            "type": "application",
+            "link": "https://openai.com/product/gpt-4",
+            "description": "",
+            "year": 2023,
+            "tags": [
+                "NLP",
+                "language model",
+                "OpenAI"
+            ]
+        },
+        {
+            "id": "e07",
+            "label": "Generative Pre-trained Transformer (GPT) 3",
+            "type": "application",
+            "link": "",
+            "description": "",
+            "year": 2020,
+            "tags": [
+                "NLP",
+                "language model",
+                "OpenAI"
+            ]
+        },
+        {
+            "id": "e08",
+            "label": "Pathways Language Model (PaLM)",
+            "type": "application",
+            "link": "https://ai.googleblog.com/2022/04/pathways-language-model-palm-scaling-to.html",
+            "description": "",
+            "year": 2022,
+            "tags": [
+                "NLP",
+                "language model",
+                "Google"
+            ]
+        },
+        {
+            "id": "e09",
+            "label": "Sphere",
+            "type": "application",
+            "link": "https://ai.facebook.com/blog/introducing-sphere-meta-ais-web-scale-corpus-for-better-knowledge-intensive-nlp/",
+            "description": "",
+            "documentation link": "https://github.com/facebookresearch/sphere",
+            "year": 2022,
+            "tags": [
+                "NLP",
+                "language model",
+                "Meta AI",
+                "open source",
+                "white box"
+            ]
+        },
+        {
+            "id": "e0a",
+            "label": "BLOOM",
+            "type": "application",
+            "link": "https: //bigscience.huggingface.co/blog/bloom",
+            "description": "",
+            "documentation link": "https://huggingface.co/bigscience/bloom",
+            "year": 2022,
+            "tags": [
+                "NLP",
+                "language model",
+                "Big Science",
+                "open source",
+                "multilingual",
+                "responsible AI license"
+            ]
+        },
+        {
+            "id": "e10",
+            "label": "DALL·E 2",
+            "type": "application",
+            "link": "https://openai.com/dall-e-2/",
+            "description": "The DALL·E 2 image generation model is an AI system that generates synthetic images from a written description.",
+            "year": 2022,
+            "tags": [
+                "CV",
+                "image generator",
+                "OpenAI"
+            ]
+        },
+        {
+            "id": "e11",
+            "label": "DALL·E",
+            "type": "application",
+            "description": "The original DALL·E image generation model is an AI system that generates synthetic images from a written description.",
+            "year": 2021,
+            "tags": [
+                "CV",
+                "image generator",
+                "OpenAI"
+            ]
+        }
+    ],
+    "connections": [
+        {
+            "id": "c0",
+            "from": "e0",
+            "to": "e00",
+            "label": "",
+            "direction": "directed"
+        },
+        {
+            "id": "c1",
+            "from": "e0",
+            "to": "e01",
+            "label": "",
+            "direction": "directed"
+        },
+        {
+            "id": "c2",
+            "from": "e0",
+            "to": "e02",
+            "label": "",
+            "direction": "directed"
+        },
+        {
+            "id": "c3",
+            "from": "e0",
+            "to": "e03",
+            "label": "",
+            "direction": "directed"
+        },
+        {
+            "id": "c4",
+            "from": "e0",
+            "to": "e04",
+            "label": "",
+            "direction": "directed"
+        },
+        {
+            "id": "c5",
+            "from": "e0",
+            "to": "e05",
+            "label": "",
+            "direction": "directed"
+        },
+        {
+            "id": "c6",
+            "from": "e0",
+            "to": "e06",
+            "label": "",
+            "direction": "directed"
+        },
+        {
+            "id": "c7",
+            "from": "e0",
+            "to": "e07",
+            "label": "",
+            "direction": "directed"
+        },
+        {
+            "id": "c8",
+            "from": "e0",
+            "to": "e08",
+            "label": "",
+            "direction": "directed"
+        },
+        {
+            "id": "c9",
+            "from": "e0",
+            "to": "e09",
+            "label": "",
+            "direction": "directed"
+        },
+        {
+            "id": "c10",
+            "from": "e0",
+            "to": "e0a",
+            "label": "",
+            "direction": "directed"
+        },
+        {
+            "id": "c11",
+            "from": "e0",
+            "to": "e0b",
+            "label": "",
+            "direction": "directed"
+        },
+        {
+            "id": "c12",
+            "from": "e1",
+            "to": "e10",
+            "label": "",
+            "direction": "directed"
+        },
+        {
+            "id": "c13",
+            "from": "e1",
+            "to": "e11",
+            "label": "",
+            "direction": "directed"
+        }
+    ]
+}
