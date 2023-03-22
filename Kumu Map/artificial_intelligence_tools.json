@@ -1,6 +1,14 @@
 {
     "elements": [
         {
+            "id": "e",
+            "label": "Computer Science",
+            "type": "field of study",
+            "tags": [
+                "CS"
+            ]
+        },
+        {
             "id": "e0",
             "label": "Natural Language Processing (NLP)",
             "type": "domain",
@@ -10,10 +18,10 @@
         },
         {
             "id": "e1",
-            "label": "Natural Language Processing (NLP)",
+            "label": "Computer Vision (CV)",
             "type": "domain",
             "tags": [
-                "NLP"
+                "CV"
             ]
         },
         {
@@ -277,22 +285,29 @@
         },
         {
             "id": "c11",
-            "from": "e0",
-            "to": "e0b",
-            "label": "",
-            "direction": "directed"
-        },
-        {
-            "id": "c12",
             "from": "e1",
             "to": "e10",
             "label": "",
             "direction": "directed"
         },
         {
-            "id": "c13",
+            "id": "c12",
             "from": "e1",
             "to": "e11",
+            "label": "",
+            "direction": "directed"
+        },
+        {
+            "id": "c13",
+            "from": "e",
+            "to": "e0",
+            "label": "",
+            "direction": "directed"
+        },
+        {
+            "id": "c14",
+            "from": "e",
+            "to": "e1",
             "label": "",
             "direction": "directed"
         }
