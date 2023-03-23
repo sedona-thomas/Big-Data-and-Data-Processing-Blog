@@ -5,7 +5,7 @@
 import json
 import os
 
-files = ["data_processing_kumu.json", "tools.json"]
+files = ["data_processing_kumu.json", "artificial_intelligence_tools.json"]
 
 
 class KumuBluePrintDebugger(object):
@@ -15,8 +15,6 @@ class KumuBluePrintDebugger(object):
         :param file: The file to be checked.
         '''
         self.filepath = "{}/{}".format(os.getcwd(), file)
-        print(self.filepath)
-        print(os.path.exists(self.filepath))
         self.data = None
 
     def run(self):
@@ -32,14 +30,8 @@ class KumuBluePrintDebugger(object):
         '''
         Loads the file into memory.
         '''
-        f = open(self.filepath)
-        for line in f:
-            print(line)
-        print(f)
+        f = open(self.filepath, encoding='utf-8')
         self.data = json.load(f)
-
-        # list all directories with the os module
-        # )
 
     def _check_JSON_syntax(self):
         '''
