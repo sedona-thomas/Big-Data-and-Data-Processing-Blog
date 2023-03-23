@@ -10,7 +10,7 @@
             ]
         },
         {
-            "id": "e00",
+            "id": "e1",
             "label": "data subject",
             "type": "actor",
             "tags": [
@@ -22,7 +22,7 @@
             ]
         },
         {
-            "id": "e000",
+            "id": "e2",
             "label": "individual person",
             "type": "actor",
             "tags": [
@@ -33,7 +33,7 @@
             ]
         },
         {
-            "id": "e01",
+            "id": "e3",
             "label": "data controller",
             "type": "actor",
             "tags": [
@@ -45,7 +45,7 @@
             ]
         },
         {
-            "id": "e010",
+            "id": "e4",
             "label": "data broker",
             "type": "actor",
             "tags": [
@@ -56,7 +56,7 @@
             ]
         },
         {
-            "id": "e011",
+            "id": "e5",
             "label": "governments",
             "type": "actor",
             "tags": [
@@ -67,7 +67,7 @@
             ]
         },
         {
-            "id": "e012",
+            "id": "e6",
             "label": "corporations",
             "type": "actor",
             "tags": [
@@ -78,7 +78,7 @@
             ]
         },
         {
-            "id": "e013",
+            "id": "e7",
             "label": "private entities",
             "type": "actor",
             "tags": [
@@ -89,7 +89,7 @@
             ]
         },
         {
-            "id": "e014",
+            "id": "e8",
             "label": "General Data Protection Regulation (GDPR)",
             "type": "regulation",
             "tags": [
@@ -100,7 +100,7 @@
             ]
         },
         {
-            "id": "e02",
+            "id": "e9",
             "label": "data processor",
             "type": "actor",
             "tags": [
@@ -112,7 +112,7 @@
             ]
         },
         {
-            "id": "e03",
+            "id": "e10",
             "label": "big data",
             "type": "thing",
             "tags": [
@@ -121,7 +121,7 @@
             ]
         },
         {
-            "id": "e1",
+            "id": "e11",
             "label": "computer science",
             "type": "field",
             "tags": [
@@ -129,7 +129,7 @@
             ]
         },
         {
-            "id": "e10",
+            "id": "e12",
             "label": "artificial intelligence (AI)",
             "type": "domain",
             "tags": [
@@ -138,7 +138,7 @@
             ]
         },
         {
-            "id": "e11",
+            "id": "e13",
             "label": "machine learning (ML)",
             "type": "domain",
             "tags": [
@@ -147,7 +147,7 @@
             ]
         },
         {
-            "id": "e12",
+            "id": "e14",
             "label": "natural language processing (NLP)",
             "type": "domain",
             "tags": [
@@ -156,7 +156,7 @@
             ]
         },
         {
-            "id": "e120",
+            "id": "e15",
             "label": "NLP Applications",
             "type": "domain",
             "description": "text processing, text predictions, sentiment analysis, text classification, chatbots, virtual assistants, speech recognition, machine translation, auto-correct",
@@ -166,7 +166,7 @@
             ]
         },
         {
-            "id": "e121",
+            "id": "e16",
             "label": "NLP/CV Applications",
             "type": "domain",
             "examples": [
@@ -180,7 +180,7 @@
             ]
         },
         {
-            "id": "e13",
+            "id": "e17",
             "label": "computer vision (CV)",
             "type": "domain",
             "tags": [
@@ -189,7 +189,7 @@
             ]
         },
         {
-            "id": "e130",
+            "id": "e18",
             "label": "CV Applications",
             "type": "domain",
             "examples": [
@@ -204,7 +204,7 @@
             ]
         },
         {
-            "id": "e14",
+            "id": "e19",
             "label": "data science",
             "type": "domain",
             "tags": [
@@ -213,7 +213,7 @@
             ]
         },
         {
-            "id": "e15",
+            "id": "e20",
             "label": "internet of things (IoT)",
             "type": "domain",
             "tags": [
@@ -223,7 +223,7 @@
             ]
         },
         {
-            "id": "e150",
+            "id": "e21",
             "label": "location data",
             "type": "data source",
             "tags": [
@@ -235,7 +235,7 @@
             ]
         },
         {
-            "id": "e151",
+            "id": "e22",
             "label": "usage data",
             "type": "data source",
             "tags": [
@@ -247,7 +247,7 @@
             ]
         },
         {
-            "id": "e152",
+            "id": "e23",
             "label": "communication data",
             "type": "data source",
             "tags": [
@@ -259,7 +259,7 @@
             ]
         },
         {
-            "id": "e153",
+            "id": "e24",
             "label": "wifi history",
             "type": "data source",
             "tags": [
@@ -271,7 +271,7 @@
             ]
         },
         {
-            "id": "e154",
+            "id": "e25",
             "label": "nearby devices",
             "type": "data source",
             "tags": [
@@ -283,7 +283,7 @@
             ]
         },
         {
-            "id": "e155",
+            "id": "e26",
             "label": "related devices",
             "type": "data source",
             "tags": [
@@ -295,7 +295,7 @@
             ]
         },
         {
-            "id": "e156",
+            "id": "e27",
             "label": "friends' devices",
             "type": "data source",
             "tags": [
@@ -307,7 +307,7 @@
             ]
         },
         {
-            "id": "e150",
+            "id": "e28",
             "label": "IoT Applications",
             "type": "domain",
             "examples": [
@@ -325,7 +325,7 @@
             ]
         },
         {
-            "id": "e2",
+            "id": "e29",
             "label": "human rights",
             "type": "field",
             "tags": [
@@ -333,7 +333,7 @@
             ]
         },
         {
-            "id": "e3",
+            "id": "e30",
             "label": "statistics",
             "type": "field",
             "tags": [
@@ -341,7 +341,7 @@
             ]
         },
         {
-            "id": "e4",
+            "id": "e31",
             "label": "electrical engineering",
             "type": "field",
             "tags": [
@@ -351,314 +351,314 @@
     ],
     "connections": [
         {
-            "id": "c1e2",
+            "id": "e0",
             "from": "e1",
             "to": "e2",
             "label": "technology ethics",
             "direction": "directed"
         },
         {
-            "id": "c1e10",
+            "id": "e1",
             "from": "e1",
             "to": "e10",
             "label": "",
             "direction": "directed"
         },
         {
-            "id": "c1e11",
+            "id": "e2",
             "from": "e1",
             "to": "e11",
             "label": "",
             "direction": "directed"
         },
         {
-            "id": "c1e12",
+            "id": "e3",
             "from": "e1",
             "to": "e12",
             "direction": "directed"
         },
         {
-            "id": "c1e13",
+            "id": "e4",
             "from": "e1",
             "to": "e13",
             "label": "",
             "direction": "directed"
         },
         {
-            "id": "c1e14",
+            "id": "e5",
             "from": "e1",
             "to": "e14",
             "label": "",
             "direction": "directed"
         },
         {
-            "id": "c1e15",
+            "id": "e6",
             "from": "e1",
             "to": "e15",
             "label": "",
             "direction": "directed"
         },
         {
-            "id": "c15e150",
+            "id": "e7",
             "from": "e15",
             "to": "e150",
             "label": "type of data",
             "direction": "directed"
         },
         {
-            "id": "c15e151",
+            "id": "e8",
             "from": "e15",
             "to": "e151",
             "label": "type of data",
             "direction": "directed"
         },
         {
-            "id": "c15e152",
+            "id": "e9",
             "from": "e15",
             "to": "e152",
             "label": "type of data",
             "direction": "directed"
         },
         {
-            "id": "c15e153",
+            "id": "e10",
             "from": "e15",
             "to": "e153",
             "label": "type of data",
             "direction": "directed"
         },
         {
-            "id": "c15e154",
+            "id": "e11",
             "from": "e15",
             "to": "e154",
             "label": "type of data",
             "direction": "directed"
         },
         {
-            "id": "c15e155",
+            "id": "e12",
             "from": "e15",
             "to": "e155",
             "label": "type of data",
             "direction": "directed"
         },
         {
-            "id": "c15e156",
+            "id": "e13",
             "from": "e15",
             "to": "e156",
             "label": "type of data",
             "direction": "directed"
         },
         {
-            "id": "c10e0",
+            "id": "e14",
             "from": "e10",
             "to": "e0",
             "label": "uses",
             "direction": "directed"
         },
         {
-            "id": "c11e0",
+            "id": "e15",
             "from": "e11",
             "to": "e0",
             "label": "uses",
             "direction": "directed"
         },
         {
-            "id": "c12e0",
+            "id": "e16",
             "from": "e12",
             "to": "e0",
             "label": "uses",
             "direction": "directed"
         },
         {
-            "id": "c13e0",
+            "id": "e17",
             "from": "e13",
             "to": "e0",
             "label": "uses",
             "direction": "directed"
         },
         {
-            "id": "c14e0",
+            "id": "e18",
             "from": "e14",
             "to": "e0",
             "label": "uses",
             "direction": "directed"
         },
         {
-            "id": "c3e10",
+            "id": "e19",
             "from": "e3",
             "to": "e10",
             "label": "",
             "direction": "directed"
         },
         {
-            "id": "c3e11",
+            "id": "e20",
             "from": "e3",
             "to": "e11",
             "label": "",
             "direction": "directed"
         },
         {
-            "id": "c3e12",
+            "id": "e21",
             "from": "e3",
             "to": "e12",
             "label": "",
             "direction": "directed"
         },
         {
-            "id": "c3e13",
+            "id": "e22",
             "from": "e3",
             "to": "e13",
             "label": "",
             "direction": "directed"
         },
         {
-            "id": "c3e14",
+            "id": "e23",
             "from": "e3",
             "to": "e14",
             "label": "",
             "direction": "directed"
         },
         {
-            "id": "c4e15",
+            "id": "e24",
             "from": "e4",
             "to": "e15",
             "label": "",
             "direction": "directed"
         },
         {
-            "id": "c12e120",
+            "id": "e25",
             "from": "e12",
             "to": "e120",
             "label": "applications",
             "direction": "directed"
         },
         {
-            "id": "c12e121",
+            "id": "e26",
             "from": "e12",
             "to": "e121",
             "label": "applications",
             "direction": "directed"
         },
         {
-            "id": "c13e121",
+            "id": "e27",
             "from": "e13",
             "to": "e121",
             "label": "applications",
             "direction": "directed"
         },
         {
-            "id": "c13e130",
+            "id": "e28",
             "from": "e13",
             "to": "e130",
             "label": "applications",
             "direction": "directed"
         },
         {
-            "id": "c15e150",
+            "id": "e29",
             "from": "e15",
             "to": "e150",
             "label": "applications",
             "direction": "directed"
         },
         {
-            "id": "c0e00",
+            "id": "e30",
             "from": "e0",
             "to": "e00",
             "label": "",
             "direction": "directed"
         },
         {
-            "id": "c00e000",
+            "id": "e31",
             "from": "e00",
             "to": "e000",
             "label": "example",
             "direction": "directed"
         },
         {
-            "id": "c01e010",
+            "id": "e32",
             "from": "e01",
             "to": "e010",
             "label": "example",
             "direction": "directed"
         },
         {
-            "id": "c01e011",
+            "id": "e33",
             "from": "e01",
             "to": "e011",
             "label": "example",
             "direction": "directed"
         },
         {
-            "id": "c01e012",
+            "id": "e34",
             "from": "e01",
             "to": "e012",
             "label": "example",
             "direction": "directed"
         },
         {
-            "id": "c01e013",
+            "id": "e35",
             "from": "e01",
             "to": "e013",
             "label": "example",
             "direction": "directed"
         },
         {
-            "id": "c0e01",
+            "id": "e36",
             "from": "e0",
             "to": "e01",
             "label": "",
             "direction": "directed"
         },
         {
-            "id": "c0e02",
+            "id": "e37",
             "from": "e0",
             "to": "e02",
             "label": "",
             "direction": "directed"
         },
         {
-            "id": "c0e03",
+            "id": "e38",
             "from": "e0",
             "to": "e03",
             "label": "processes",
             "direction": "directed"
         },
         {
-            "id": "c010e011",
+            "id": "e39",
             "from": "e010",
             "to": "e011",
             "label": "sells to",
             "direction": "directed"
         },
         {
-            "id": "c010e012",
+            "id": "e40",
             "from": "e010",
             "to": "e012",
             "label": "sells to",
             "direction": "directed"
         },
         {
-            "id": "c010e013",
+            "id": "e41",
             "from": "e010",
             "to": "e013",
             "label": "sells to",
             "direction": "directed"
         },
         {
-            "id": "c014e00",
+            "id": "e42",
             "from": "e014",
             "to": "e00",
             "label": "creates",
             "direction": "directed"
         },
         {
-            "id": "c014e01",
+            "id": "e43",
             "from": "e014",
             "to": "e01",
             "label": "creates",
             "direction": "directed"
         },
         {
-            "id": "c014e02",
+            "id": "e44",
             "from": "e014",
             "to": "e02",
             "label": "creates",
