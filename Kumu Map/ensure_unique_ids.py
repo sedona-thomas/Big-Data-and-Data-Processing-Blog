@@ -4,7 +4,7 @@
 
 import json
 
-files = ["data_processing_kumu.json", "./artificial_intelligence_tools.json"]
+files = ["data_processing_kumu.json", "artificial_intelligence_tools.json"]
 
 
 class KumuBluePrintDebugger(object):
@@ -63,7 +63,7 @@ class KumuBluePrintDebugger(object):
         Writes the file to disk.
         '''
         with open(self.file, 'w') as f:
-            json.dump(self.data, self.file)
+            json.dump(self.data, f)
 
 
 def main():
