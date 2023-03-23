@@ -3,6 +3,7 @@
 # -*- coding: utf-8 -*-
 
 import json
+import os
 
 files = ["data_processing_kumu.json", "artificial_intelligence_tools.json"]
 
@@ -15,6 +16,7 @@ class KumuBluePrintDebugger(object):
         '''
         self.file = file
         self.data = None
+        print(os.getcwd())
 
     def run(self):
         '''
