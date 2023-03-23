@@ -5,7 +5,7 @@
 import json
 import os
 
-files = ["data_processing_kumu.json", "ai_tools.json"]
+files = ["data_processing_kumu.json", "tools.json"]
 
 
 class KumuBluePrintDebugger(object):
@@ -15,6 +15,7 @@ class KumuBluePrintDebugger(object):
         :param file: The file to be checked.
         '''
         self.filepath = "{}/{}".format(os.getcwd(), file)
+        print(self.filepath)
         print(os.path.exists(self.filepath))
         self.data = None
 
