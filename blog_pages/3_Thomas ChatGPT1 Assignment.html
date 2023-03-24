@@ -1,189 +1,430 @@
-<div id="description">
-    <small>
-        <!-- description -->
-    </small>
-</div>
-
 <div id="strategy">
     <h2>Strategy</h2>
     <p>
-        <!-- describe strategy -->
-        <!-- Start with a brief description of your search strategy, explain what you were broadly concerned with and what particular issues your wanted to drill down into. -->
+        My strategy is twofold:
+    <ol>
+        <li>Learn more about how useful answers are based on how questions are structured</li>
+        <li>Learn more about the programming abilities of ChatGPT/GPT-3 </li>
+    </ol>
+    </p>
+    <p>
+        The first part of my strategy was developed to formalize some things I noticed in
+        personal tests of ChatGPT. Before this assignment, I was personally testing out the
+        capabilities of ChatGPT. I was specifically using it to suggest alternative phrasings
+        of text for an essay, essentially treating it as a more complicated thesaurus. Through
+        these tests, while many individual requests were not helpful or seemed to misinterpret
+        the questions, I noticed that explicitly requesting multiple responses seemed to
+        improved the overall quality of the responses and revealed the patterns that ChatGPT
+        was recognizing.
+    </p>
+    <p>
+        The second part of my strategy was developed after I accidentally caused Github Copilot
+        (another application of ChatGPT's underlying language model [GPT-3]) to try to write by
+        blog pages (see <a href="#copilot">discussion below</a>). I had installed Github Copilot
+        for personal use while programming, but it automatically started suggesting text for my
+        blog pages and, while writing this post, it is still suggesting ways to finish my sentences.
+        I decided to specifically test how well ChatGPT could write code to solve niche programming
+        problems since I had already intended to write a program to fix Kumu Blueprint files. I have
+        also noted places throughout this post where Github Copilot made suggestions to my writing that
+        seemed particularly interesting.
     </p>
 </div>
 
 <div id="questions">
     <h2>Main Questions Asked</h2>
 
-    <!-- Then list the three to five questions that you posed, and if the reasoning is not obvious, some guidance as to your "drillability" choices. At least one of the questions should concern framing and another should relate to networks.  ChatGPT will often take an advantages/disadvantages of framing question and provide information on the networks that you can mobilize. -->
-
+    <h3>General Questions about Blog Topic</h3>
     <ol>
-        <li><code>  </code>: </li>
-        <li><code>  </code>: </li>
-        <li><code>  </code>: </li>
-        <li><code>  </code>: </li> <!-- networks -->
-        <li><code>  </code>: </li> <!-- framing -->
+        <li><code>Who are the rights violators in big data and data processing?</code></li>
+        <li><code>What does the United Nations think of digital privacy?</code></li>
+        <li><code>List the most significant data rights legislation</code> (network question,
+            specifically seeing what governments' legislation is included in the list)</li>
+        <li><code>What is the most compelling framing of data rights?</code></li>
+        <li><code>What data rights efforts have been most effective?</code> (framing question, specifically which
+            framings/strategies have been most effective)</li>
     </ol>
 
-    <div id="q&a">
-        <p>
-            <!-- question and answer -->
-            <!-- Finally, On the same page, quote the question and answer to at least one interchange. -->
-            <!-- API Key Setup: https://platform.openai.com/docs/tutorials/web-qa-embeddings -->
-        </p>
+    <h3>Programming Specific Questions</h3>
+    <ol>
+        <li><code>write code to debug a kumu blueprint json file</code></li>
+        <li><code>write code to fix a kumu blueprint json file such that all "id" fields
+            are unique and validate the JSON syntax</code></li>
+    </ol>
+</div>
 
-        <div class="exchange">
-            <!-- at least one exchange -->
-            <!-- Point to the critical observations in the ChatGPT response by using italics, bold, and color -->
-            <p>
-                <!-- question -->
-            </p>
-            <blockquote cite="https://openai.com/blog/chatgpt">
-                <!-- answer -->
-            </blockquote>
-            <p>
-                <!-- commentary/analysis -->
-            </p>
-        </div>
 
-        <div class="exchange">
-            <p>
-                write code to debug a kumu blueprint json file
-            </p>
-            <blockquote cite="https://openai.com/blog/chatgpt">
+<div id="q&a" style="margin-left: 2%;">
+    <h2>Exchanges with ChatGPT</h2>
+    <p>My own commentary/discussion is in italics below some of the queries.</p>
 
-                Unfortunately, as an AI language model, I cannot provide a specific code solution without knowing the
-                details of the problem you are facing with the Kumu Blueprint JSON file. However, here are some general
-                steps that you can follow to debug a Kumu Blueprint JSON file:
+    <h3>General Questions</h3>
+    <ol>
+        <li>
+            <div class="exchange">
+                <p>
+                    <b>Query:</b> Who are the rights violators in big data and data processing?
+                </p>
+                <blockquote cite="https://openai.com/blog/chatgpt">
+                    There are several actors that can potentially violate
+                    the rights of individuals in the context of big data and data processing.
+                    Here are a few examples:
+                    <br /><br />
+                    <b>Companies:</b> Companies that collect and use data may violate individuals'
+                    privacy rights if they do not obtain appropriate consent or if they use
+                    data in ways that are not consistent with the purposes for which it was
+                    collected.
+                    <br /><br />
+                    <b>Governments:</b> Governments may violate individuals' privacy rights if they
+                    collect and use data without appropriate legal authority, or if they use
+                    data in ways that are not consistent with privacy laws or human rights
+                    standards.
+                    <br /><br />
+                    <b>Data processors:</b> Companies that process data on behalf of others may
+                    violate individuals' privacy rights if they do not adequately protect
+                    the data or if they use the data in ways that are not consistent with
+                    the purposes for which it was collected.
+                    <br /><br />
+                    <b>Hackers:</b> Individuals or groups who gain unauthorized access to data can
+                    violate individuals' privacy rights by disclosing or misusing sensitive
+                    information.
+                    <br /><br />
+                    <b>Third-party service providers:</b> Service providers that work with companies
+                    or governments may also be responsible for violating individuals' privacy
+                    rights if they do not comply with privacy laws or data protection standards.
+                    <br /><br />
+                    It is important to note that the specific actors that may violate individuals'
+                    privacy rights in the context of big data and data processing will vary
+                    depending on the particular circumstances and the legal and regulatory
+                    frameworks that apply.
+                </blockquote>
+                <p>
+                    I was impressed by the specificity of the response. It was clear that ChatGPT was
+                    able to identify the patterns in its training data about the common entities that
+                    violate data rights. I was also impressed by the fact that ChatGPT was able to order
+                    them such that companies, governments, and data processors were listed first. This
+                    likely indicates that these are the main entities discussed in cases of data rights
+                    violations.
+                </p>
+            </div>
+        </li>
+        <li>
+            <div class="exchange">
+                <p>
+                    <b>Query:</b> What data rights efforts have been most effective?
+                </p>
+                <blockquote cite="https://openai.com/blog/chatgpt">
+                    Several data rights efforts have been effective in promoting greater
+                    privacy and data protection for individuals. Some of the most effective efforts include:
+                    <ol>
+                        <li>
+                            General Data Protection Regulation (GDPR): The GDPR is a European Union regulation that sets
+                            out rules for the processing, use, and storage of personal data. It has been effective in
+                            increasing awareness and understanding of data rights, as well as encouraging companies to
+                            adopt better data protection practices.
+                        </li>
+                        <li>
+                            California Consumer Privacy Act (CCPA): The CCPA is a California state law that gives
+                            California residents the right to know what data is being collected about them, how it is
+                            being used, and the right to have their data deleted. It has been effective in increasing
+                            transparency and accountability for companies that collect and use personal data.
+                        </li>
+                        <li id="PbD">
+                            Privacy by Design (PbD): PbD is an approach to data protection that emphasizes privacy and
+                            data protection as integral components of technology design and development. It has been
+                            effective in promoting data protection by encouraging companies to build privacy and
+                            security features into their products and services from the outset.
+                        </li>
+                        <li>
+                            Online Privacy Alliance (OPA): The OPA is an industry group that promotes self-regulation
+                            and best practices for online privacy. It has been effective in promoting industry standards
+                            for data protection and in encouraging companies to adopt better privacy practices.
+                        </li>
+                        <li>
+                            Electronic Frontier Foundation (EFF): The EFF is a nonprofit organization that advocates for
+                            digital privacy, free speech, and civil liberties. It has been effective in promoting
+                            greater transparency and accountability for companies and governments that collect and use
+                            personal data, as well as in providing legal support for individuals and organizations that
+                            fight for data rights.
+                        </li>
+                        Overall, these data rights efforts have been effective in promoting greater privacy and data
+                        protection for individuals, increasing awareness and understanding of data rights, and
+                        encouraging companies to adopt better data protection practices.
+                    </ol>
+                </blockquote>
+                <p>
+                    ChatGPT was clearly able to identify actions that were taken to protect data rights. It
+                    interpreted the question as asking about advocacy groups, design techniques, and legislative
+                    actions. Notably, its inclusion of <q><a href="#PbD">Privacy by Design</a></q> is the only framing
+                    strategy while the others are tangible actions (non-profits or legislation).
+                </p>
+            </div>
+        </li>
+        <li>
+            <div class="exchange">
+                <p>
+                    <b>Query:</b> What does the United Nations think of digital privacy?
+                </p>
+                <blockquote cite="https://openai.com/blog/chatgpt">
+                    The United Nations recognizes the importance of digital privacy and has taken several steps to
+                    address it. The UN General Assembly has recognized the right to privacy as a fundamental human
+                    right, enshrined in Article 12 of the Universal Declaration of Human Rights.
 
-                Validate the JSON syntax: Use a JSON validator tool to check if your JSON file is valid. An invalid JSON
-                file can cause errors in your code. You can use online tools like JSONLint, or a JSON parser library in
-                your preferred programming language.
+                    In addition, the United Nations has established several initiatives to promote digital privacy and
+                    protect individuals from data breaches and abuses. For example:
 
-                Check for missing or extra commas: Missing or extra commas in the JSON file can also cause errors. Make
-                sure that all the commas are in the correct places.
+                    In 2015, the UN adopted the 2030 Agenda for Sustainable Development, which includes a target to
+                    "significantly reduce illicit financial and arms flows, strengthen the recovery and return of stolen
+                    assets and combat all forms of organized crime."
 
-                Check for typos and misspelled words: Make sure that all the keys and values in the JSON file are
-                spelled correctly.
+                    The United Nations also established the Office of the High Commissioner for Human Rights, which has
+                    a mandate to promote and protect human rights, including the right to privacy.
 
-                Verify the JSON schema: Check that your JSON file matches the expected schema for Kumu Blueprint JSON.
-                The Kumu Blueprint JSON
+                    The UN has also created the Special Rapporteur on the right to privacy, who is responsible for
+                    examining and reporting on issues related to digital privacy.
 
-            </blockquote>
-            <p>
-                <!-- commentary/analysis -->
-            </p>
-        </div>
+                    The UN has also adopted various treaties and conventions related to privacy, such as the
+                    International Covenant on Civil and Political Rights and the Convention on the Rights of the Child,
+                    which include provisions related to the protection of personal data and the right to privacy.
 
-        <div class="exchange">
-            <p>
-                write code to fix a kumu blueprint json file such that all "id" fields are unique and validate the JSON
-                syntax
-            </p>
-            <blockquote cite="https://openai.com/blog/chatgpt">
+                    In summary, the United Nations recognizes the importance of digital privacy and has taken several
+                    steps to promote and protect this fundamental right.
+                </blockquote>
+            </div>
+        </li>
+        <li>
+            <div class="exchange">
+                <p>
+                    <b>Query:</b> List the most significant data rights legislation
+                </p>
+                <blockquote cite="https://openai.com/blog/chatgpt">
 
-                Here's an example Python code that should fix a Kumu Blueprint JSON file by ensuring that all "id"
-                fields are unique and validating the JSON syntax:
+                    <ol>
+                        <li>
+                            General Data Protection Regulation (GDPR): The GDPR is a European Union regulation that sets
+                            out
+                            rules for the processing, use, and storage of personal data. It gives individuals the right
+                            to know
+                            what data is being collected about them, how it is being used, and the right to have their
+                            data
+                            erased.
+                        </li>
+                        <li>
+                            California Consumer Privacy Act (CCPA): The CCPA is a California state law that gives
+                            California
+                            residents the right to know what data is being collected about them, how it is being used,
+                            and the
+                            right to have their data deleted. It also gives individuals the right to opt-out of the sale
+                            of
+                            their personal information.
+                        </li>
+                        <li>
+                            Children's Online Privacy Protection Act (COPPA): COPPA is a U.S. federal law that requires
+                            websites
+                            and online services that are directed at children under the age of 13 to obtain parental
+                            consent
+                            before collecting personal information from children.
+                        </li>
+                        <li>
+                            Electronic Communications Privacy Act (ECPA): The ECPA is a U.S. federal law that provides
+                            guidelines for the interception of electronic communications. It requires law enforcement to
+                            obtain
+                            a warrant before accessing email, text messages, and other electronic communications.
+                        </li>
+                        <li>
+                            Health Insurance Portability and Accountability Act (HIPAA): HIPAA is a U.S. federal law
+                            that sets
+                            standards for the privacy and security of individuals' health information. It requires
+                            healthcare
+                            providers and health plans to protect the confidentiality and integrity of patients' medical
+                            records
+                            and other health information.
+                        </li>
+                        <li>
+                            Personal Information Protection and Electronic Documents Act (PIPEDA): PIPEDA is a Canadian
+                            federal
+                            law that regulates how private sector organizations collect, use, and disclose personal
+                            information
+                            in the course of commercial activities. It gives individuals the right to access their
+                            personal
+                            information and request that it be corrected if necessary.
+                        </li>
+                        <li>
+                            General Data Protection Law (LGPD): The LGPD is a Brazilian federal law that sets out rules
+                            for the
+                            processing, use, and storage of personal data. It gives individuals the right to know what
+                            data is
+                            being collected about them, how it is being used, and the right to have their data erased.
+                        </li>
+                    </ol>
+                </blockquote>
+            </div>
+        </li>
+    </ol>
 
-                <code>
-                import json
+    <h3>Programming Questions</h3>
+    <ol>
+        <li>
+            <div class="exchange">
 
-                def fix_kumu_json_file(file_path):
-                    with open(file_path, 'r') as f:
-                        data = json.load(f)
-                    
-                    # create a dictionary to store the id of each item
-                    id_dict = {}
-                    
-                    # loop through each item and assign a unique id if it's a duplicate
-                    for item in data['items']:
-                        if item['id'] in id_dict:
-                            item['id'] = generate_unique_id(id_dict)
-                        id_dict[item['id']] = True
-                    
-                    # write the fixed JSON file to disk
-                    with open(file_path, 'w') as f:
-                        json.dump(data, f, indent=2)
-                    
-                    # validate the JSON syntax
-                    try:
-                        json.loads(data)
-                    except ValueError as e:
-                        print("JSON syntax error: {}".format(str(e)))
+                <h4>Asking ChatGPT to write a program to find issues with a Kumu Blueprint file</h4>
+                <p>
+                    <b>Query:</b> write code to debug a kumu blueprint json file
+                </p>
+                <blockquote cite="https://openai.com/blog/chatgpt">
 
-                def generate_unique_id(id_dict):
-                    new_id = len(id_dict) + 1
-                    while new_id in id_dict:
-                        new_id += 1
-                    return new_id
+                    Unfortunately, <b>as an AI language model</b>,
+                    I cannot provide a specific code solution without knowing
+                    the details of the problem you are facing with the Kumu
+                    Blueprint JSON file. However, here are <b>some general steps</b>
+                    that you can follow to debug a Kumu Blueprint JSON file:
+                    <ul>
+                        <li>Validate the JSON syntax: Use a JSON validator tool to
+                            check if your JSON file is valid. An invalid JSON file
+                            can cause errors in your code. You can use online tools
+                            like JSONLint, or a JSON parser library in your preferred
+                            programming language.</li>
+                        <li>Check for missing or extra commas: Missing or extra commas
+                            in the JSON file can also cause errors. Make sure that all
+                            the commas are in the correct places.</li>
+                        <li>Check for typos and misspelled words: Make sure that all the
+                            keys and values in the JSON file are spelled correctly.</li>
+                        <li>Verify the JSON schema: Check that your JSON file matches
+                            the expected schema for Kumu Blueprint JSON. The Kumu Blueprint
+                            JSON</li>
+                    </ul>
+                </blockquote>
+                <p>
+                    This response surprised me because I would have expected the model to interpret
+                    the "kumu blueprint" portion of the query as a name or title and still try to solve
+                    the problem. The apparent "self-awareness" of the model indicates that this form of
+                    response was added to the underlying language model in some way. The developers could
+                    have specified what to do when uncertain about a solution, provided examples of responses
+                    for queries related to code generation, or even added an explicit "fallback" response
+                    that would be returned when the model is unable to generate a solution. (Notably, the wording of
+                    "even added an explicit "fallback" response that would be returned when the model is
+                    unable to generate a solution" was explicitly suggested by the Github Copilot before I was
+                    able to type something to the same effect.)
+                </p>
+            </div>
+        </li>
 
-                # call the function to fix the JSON file
-                fix_kumu_json_file('my_kumu_blueprint.json')
-                </code>
+        <li>
+            <div class="exchange">
+                <h4>Asking ChatGPT to write code to ensure that "id" tags in a JSON file are all unique</h4>
+                <p>
+                    <b>Query:</b> write code to fix a kumu blueprint json file such that all "id" fields
+                    are unique and validate the JSON syntax
+                </p>
+                <blockquote cite="https://openai.com/blog/chatgpt">
+                    Here's an example Python code that should fix a Kumu Blueprint JSON
+                    file by ensuring that all "id" fields are unique and validating the
+                    JSON syntax:
+                    <code>
+                            import json<br />
+                            <br />
+                            def fix_kumu_json_file(file_path):<br />
+                                with open(file_path, 'r') as f:<br />
+                                    data = json.load(f)<br />
+                                    <br />
+                                # create a dictionary to store the id of each item<br />
+                                id_dict = {}<br />
+                                <br />
+                                # loop through each item and assign a unique id if it's a duplicate<br />
+                                for item in data['items']:<br />
+                                    if item['id'] in id_dict:<br />
+                                        item['id'] = generate_unique_id(id_dict)<br />
+                                    id_dict[item['id']] = True<br />
+                                    <br />
+                                # write the fixed JSON file to disk<br />
+                                with open(file_path, 'w') as f:<br />
+                                    json.dump(data, f, indent=2)<br />
+                                    <br />
+                                # validate the JSON syntax<br />
+                                try:<br />
+                                    json.loads(data)<br />
+                                except ValueError as e:<br />
+                                    print("JSON syntax error: {}".format(str(e)))<br />
+                                    <br />
+                            def generate_unique_id(id_dict):<br />
+                                new_id = len(id_dict) + 1<br />
+                                while new_id in id_dict:<br />
+                                    new_id += 1<br />
+                                return new_id<br />
+                                <br />
+                            # call the function to fix the JSON file<br />
+                            fix_kumu_json_file('my_kumu_blueprint.json')<br />
+                        </code>
 
-                This code opens the Kumu Blueprint JSON file, creates a dictionary to store the "id" of each item, loops
-                through each item and assigns a unique id if it's a duplicate, writes the fixed JSON file back to disk,
-                and validates the JSON syntax using the json.loads() function. If there's a JSON syntax error, the code
-                will print an error message.
-
-            </blockquote>
-            <blockquote>
-                !
-                Here's some code in Python that should do the job of fixing a Kumu Blueprint JSON file by ensuring that
-                all id fields are unique, and also validating the JSON syntax:
-
-                <code>
-                import json
-                
-                # Load the JSON file
-                with open('my_file.json') as f:
-                    data = json.load(f)
-                
-                # Check if the JSON syntax is valid
-                try:
-                    json.dumps(data)
-                except ValueError as e:
-                    print(f"Error: {e}")
-                    exit()
-                
-                # Create a dictionary to keep track of unique ids
-                id_dict = {}
-                
-                # Loop through each item in the JSON file
-                for item in data:
-                    # Check if the id field already exists in the dictionary
-                    if item.get('id') in id_dict:
-                        # If the id already exists, generate a new unique id
-                        item['id'] = f"{item['id']}-{id_dict[item['id']]}"
-                        # Increment the count for this id in the dictionary
-                        id_dict[item['id']] += 1
-                    else:
-                        # If the id does not exist, add it to the dictionary
-                        id_dict[item['id']] = 1
-                
-                # Write the updated JSON data to a new file
-                with open('fixed_file.json', 'w') as f:
-                    json.dump(data, f)
-                </code>
-
-                This code will load the JSON file, validate the syntax, and then loop through each item in the file. For
-                each item, it will check if the id field already exists in the `id_dict
-            </blockquote>
-
-            <p>
-                <!-- commentary/analysis -->
-            </p>
-        </div>
-    </div>
+                    This code opens the Kumu Blueprint JSON file, creates a dictionary
+                    to store the "id" of each item, loops through each item and assigns
+                    a unique id if it's a duplicate, writes the fixed JSON file back to
+                    disk, and validates the JSON syntax using the json.loads() function.
+                    If there's a JSON syntax error, the code will print an error message.
+                </blockquote>
+                <blockquote>
+                    Here's some code in Python that should do the job of fixing a Kumu
+                    Blueprint JSON file by ensuring that all id fields are unique, and
+                    also validating the JSON syntax:
+                    <br />
+                    <code>
+                            import json<br />
+                            <br />
+                            # Load the JSON file<br />
+                            with open('my_file.json') as f:<br />
+                                data = json.load(f)<br />
+                                <br />
+                            # Check if the JSON syntax is valid<br />
+                            try:<br />
+                                json.dumps(data)<br />
+                            except ValueError as e:<br />
+                                print(f"Error: {e}")<br />
+                                exit()<br />
+                                <br />
+                            # Create a dictionary to keep track of unique ids<br />
+                            id_dict = {}<br />
+                            <br />
+                            # Loop through each item in the JSON file<br />
+                            for item in data:<br />
+                                # Check if the id field already exists in the dictionary<br />
+                                if item.get('id') in id_dict:<br />
+                                    # If the id already exists, generate a new unique id<br />
+                                    item['id'] = f"{item['id']}-{id_dict[item['id']]}"<br />
+                                    # Increment the count for this id in the dictionary<br />
+                                    id_dict[item['id']] += 1<br />
+                                else:<br />
+                                    # If the id does not exist, add it to the dictionary<br />
+                                    id_dict[item['id']] = 1<br />
+                                    <br />
+                            # Write the updated JSON data to a new file<br />
+                            with open('fixed_file.json', 'w') as f:<br />
+                                json.dump(data, f)<br />
+                        </code>
+                    <br />
+                    This code will load the JSON file, validate the syntax, and then
+                    loop through each item in the file. For each item, it will check
+                    if the id field already exists in the `id_dict
+                </blockquote>
+            </div>
+        </li>
+    </ol>
+</div>
 </div>
 
 <div id="discussion">
+    <h3>Discussion</h3>
     <p>
-        <!-- discussion -->
-        <!-- In a paragraph or two, describe how your encounter with ChatGPT surprised you for better or worse  What did it help you do better? What search strategies and sequences worked best for you and would be worth sharing with the class? In our class after this assignment, we will discuss how your observation as well as how ChatGPT’s posits the advantages and disadvantages of a human rights frame -->
+        When initially using ChatGPT prior to this assignment, I was impressed with the improvements
+        between it and many other prior chatbots, but I was not surprised by the results of the general
+        questions for this assignment. However, I was quite impressed with the handling of the programming
+        queries. I was not expecting the model to be able to generate code that was instantly usable or only
+        required minor debugging. This is particularly notable because language models like GPT-3 are typically only
+        usable by computer programmers unless they are programmed for a specific domain. For general queries,
+        ChatGPT is effective at generating many responses that can be filtered down or edited by a human to make
+        them more applicable to the user's needs. However, for more specific queries, ChatGPT sometimes generates
+        responses that do not fulfill the user's intentions or interpret the question too literally.
     </p>
 
-    <h3>Accidental Additional Use of Additional GPT-3 Model: Github Copilot</h3>
+    <h3 id="copilot">Accidental Additional Use of Additional GPT-3 Model: Github Copilot</h3>
     <p>
         Our discussions about ChatGPT reminded me to enable Github Copilot. Github
         Copilot is a language generation model for programmers that is built off of
@@ -199,6 +440,16 @@
         I am familiar with the abilities and limitations of these kinds of models,
         but even I was extremely impressed with the outputs since the Copilot program
         is intended to write code, not text.
+    </p>
+
+    <p>
+        I also wanted to note that tools like Copilot and ChatGPT will soon be built into commonplace software.
+        For example, just last week, Microsoft announced that they are in the process of integrating <a
+            href="https://www.microsoft.com/en-us/microsoft-365/blog/2023/03/16/introducing-microsoft-365-copilot-a-whole-new-way-to-work/">
+            a similar tool</a> to Github Copilot into the entire Microsoft Office Suite in the next few months.
+        Unlike Github Copilot, this tool will assist in writing documents, emails, and other text-based content
+        and will make it even more difficult to identify what is written by a human and what is written by a
+        machine.
     </p>
 
     <blockquote>
