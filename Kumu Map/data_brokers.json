@@ -47,23 +47,23 @@
     ],
     "connections": [
         {
-            "id": "e0",
-            "from": "e1",
-            "to": "e01",
+            "id": "c0e1",
+            "from": "e0",
+            "to": "e1",
             "label": "sells to",
             "direction": "directed"
         },
         {
-            "id": "e0",
-            "from": "e2",
-            "to": "e02",
+            "id": "c0e2",
+            "from": "e0",
+            "to": "e2",
             "label": "sells to",
             "direction": "directed"
         },
         {
-            "id": "e0",
-            "from": "e3",
-            "to": "e03",
+            "id": "c0e3",
+            "from": "e0",
+            "to": "e3",
             "label": "sells to",
             "direction": "directed"
         }
