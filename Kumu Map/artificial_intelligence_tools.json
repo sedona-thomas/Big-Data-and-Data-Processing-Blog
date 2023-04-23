@@ -1,7 +1,7 @@
 {
     "elements": [
         {
-            "id": "e0",
+            "id": "e",
             "label": "Computer Science",
             "type": "field of study",
             "tags": [
@@ -9,7 +9,7 @@
             ]
         },
         {
-            "id": "e1",
+            "id": "e0",
             "label": "Natural Language Processing (NLP)",
             "type": "domain",
             "tags": [
@@ -17,7 +17,7 @@
             ]
         },
         {
-            "id": "e2",
+            "id": "e1",
             "label": "Computer Vision (CV)",
             "type": "domain",
             "tags": [
@@ -25,7 +25,7 @@
             ]
         },
         {
-            "id": "e3",
+            "id": "e00",
             "label": "ChatGPT",
             "type": "application",
             "link": "https://openai.com/blog/chatgpt",
@@ -39,7 +39,7 @@
             ]
         },
         {
-            "id": "e4",
+            "id": "e01",
             "label": "InstructGPT",
             "type": "application",
             "link": "https://openai.com/research/instruction-following",
@@ -53,7 +53,7 @@
             ]
         },
         {
-            "id": "e5",
+            "id": "e02",
             "label": "Language Model for Dialogue Applications (LaMDA)",
             "type": "application",
             "link": "https://blog.google/technology/ai/lamda/",
@@ -66,7 +66,7 @@
             ]
         },
         {
-            "id": "e6",
+            "id": "e03",
             "label": "BARD",
             "type": "application",
             "link": "https://blog.google/technology/ai/bard-google-ai-search-updates/",
@@ -79,7 +79,7 @@
             ]
         },
         {
-            "id": "e7",
+            "id": "e04",
             "label": "Bing Chat",
             "type": "application",
             "link": "https: //www.microsoft.com/en-us/bing",
@@ -93,7 +93,7 @@
             ]
         },
         {
-            "id": "e8",
+            "id": "e05",
             "label": "Open Pre-trained Transformer (OPT)",
             "type": "application",
             "link": "https://ai.facebook.com/blog/democratizing-access-to-large-scale-language-models-with-opt-175b/",
@@ -108,7 +108,7 @@
             ]
         },
         {
-            "id": "e9",
+            "id": "e06",
             "label": "Generative Pre-trained Transformer (GPT) 4",
             "type": "application",
             "link": "https://openai.com/product/gpt-4",
@@ -121,7 +121,7 @@
             ]
         },
         {
-            "id": "e10",
+            "id": "e07",
             "label": "Generative Pre-trained Transformer (GPT) 3",
             "type": "application",
             "link": "",
@@ -134,7 +134,7 @@
             ]
         },
         {
-            "id": "e11",
+            "id": "e08",
             "label": "Pathways Language Model (PaLM)",
             "type": "application",
             "link": "https://ai.googleblog.com/2022/04/pathways-language-model-palm-scaling-to.html",
@@ -147,7 +147,7 @@
             ]
         },
         {
-            "id": "e12",
+            "id": "e09",
             "label": "Sphere",
             "type": "application",
             "link": "https://ai.facebook.com/blog/introducing-sphere-meta-ais-web-scale-corpus-for-better-knowledge-intensive-nlp/",
@@ -163,7 +163,7 @@
             ]
         },
         {
-            "id": "e13",
+            "id": "e0a",
             "label": "BLOOM",
             "type": "application",
             "link": "https: //bigscience.huggingface.co/blog/bloom",
@@ -180,11 +180,11 @@
             ]
         },
         {
-            "id": "e14",
-            "label": "DALL\u00b7E 2",
+            "id": "e10",
+            "label": "DALL·E 2",
             "type": "application",
             "link": "https://openai.com/dall-e-2/",
-            "description": "The DALL\u00b7E 2 image generation model is an AI system that generates synthetic images from a written description.",
+            "description": "The DALL·E 2 image generation model is an AI system that generates synthetic images from a written description.",
             "year": 2022,
             "tags": [
                 "CV",
@@ -193,10 +193,10 @@
             ]
         },
         {
-            "id": "e15",
-            "label": "DALL\u00b7E",
+            "id": "e11",
+            "label": "DALL·E",
             "type": "application",
-            "description": "The original DALL\u00b7E image generation model is an AI system that generates synthetic images from a written description.",
+            "description": "The original DALL·E image generation model is an AI system that generates synthetic images from a written description.",
             "year": 2021,
             "tags": [
                 "CV",
@@ -207,105 +207,105 @@
     ],
     "connections": [
         {
-            "id": "e0",
+            "id": "c0",
             "from": "e0",
             "to": "e00",
             "label": "",
             "direction": "directed"
         },
         {
-            "id": "e1",
+            "id": "c1",
             "from": "e0",
             "to": "e01",
             "label": "",
             "direction": "directed"
         },
         {
-            "id": "e2",
+            "id": "c2",
             "from": "e0",
             "to": "e02",
             "label": "",
             "direction": "directed"
         },
         {
-            "id": "e3",
+            "id": "c3",
             "from": "e0",
             "to": "e03",
             "label": "",
             "direction": "directed"
         },
         {
-            "id": "e4",
+            "id": "c4",
             "from": "e0",
             "to": "e04",
             "label": "",
             "direction": "directed"
         },
         {
-            "id": "e5",
+            "id": "c5",
             "from": "e0",
             "to": "e05",
             "label": "",
             "direction": "directed"
         },
         {
-            "id": "e6",
+            "id": "c6",
             "from": "e0",
             "to": "e06",
             "label": "",
             "direction": "directed"
         },
         {
-            "id": "e7",
+            "id": "c7",
             "from": "e0",
             "to": "e07",
             "label": "",
             "direction": "directed"
         },
         {
-            "id": "e8",
+            "id": "c8",
             "from": "e0",
             "to": "e08",
             "label": "",
             "direction": "directed"
         },
         {
-            "id": "e9",
+            "id": "c9",
             "from": "e0",
             "to": "e09",
             "label": "",
             "direction": "directed"
         },
         {
-            "id": "e10",
+            "id": "c10",
             "from": "e0",
             "to": "e0a",
             "label": "",
             "direction": "directed"
         },
         {
-            "id": "e11",
+            "id": "c11",
             "from": "e1",
             "to": "e10",
             "label": "",
             "direction": "directed"
         },
         {
-            "id": "e12",
+            "id": "c12",
             "from": "e1",
             "to": "e11",
             "label": "",
             "direction": "directed"
         },
         {
-            "id": "e13",
+            "id": "c13",
             "from": "e",
             "to": "e0",
             "label": "",
             "direction": "directed"
         },
         {
-            "id": "e14",
+            "id": "c14",
             "from": "e",
             "to": "e1",
             "label": "",
