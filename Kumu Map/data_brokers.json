@@ -1,0 +1,71 @@
+{
+    "elements": [
+        {
+            "id": "e0",
+            "label": "data broker",
+            "type": "actor",
+            "tags": [
+                "CS",
+                "data",
+                "actor",
+                "perprtrator"
+            ]
+        },
+        {
+            "id": "e1",
+            "label": "governments",
+            "type": "actor",
+            "tags": [
+                "CS",
+                "data",
+                "actor",
+                "perprtrator"
+            ]
+        },
+        {
+            "id": "e2",
+            "label": "corporations",
+            "type": "actor",
+            "tags": [
+                "CS",
+                "data",
+                "actor",
+                "perprtrator"
+            ]
+        },
+        {
+            "id": "e3",
+            "label": "private entities",
+            "type": "actor",
+            "tags": [
+                "CS",
+                "data",
+                "actor",
+                "perprtrator"
+            ]
+        }
+    ],
+    "connections": [
+        {
+            "id": "e0",
+            "from": "e1",
+            "to": "e01",
+            "label": "sells to",
+            "direction": "directed"
+        },
+        {
+            "id": "e0",
+            "from": "e2",
+            "to": "e02",
+            "label": "sells to",
+            "direction": "directed"
+        },
+        {
+            "id": "e0",
+            "from": "e3",
+            "to": "e03",
+            "label": "sells to",
+            "direction": "directed"
+        }
+    ]
+}
