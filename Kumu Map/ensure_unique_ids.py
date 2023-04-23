@@ -56,7 +56,7 @@ class KumuBluePrintDebugger(object):
             n += 1
         n = 0
         for connection in connections:
-            connection["id"] = "e{}".format(n)
+            connection["id"] = "c{}".format(n)
             n += 1
 
     def _write_file(self):
