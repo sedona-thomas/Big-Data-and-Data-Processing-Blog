@@ -8,7 +8,7 @@
                 "CS",
                 "data",
                 "actor",
-                "perprtrator"
+                "perpetrator"
             ]
         },
         {
@@ -19,7 +19,7 @@
                 "CS",
                 "data",
                 "actor",
-                "perprtrator"
+                "perpetrator"
             ]
         },
         {
@@ -30,7 +30,7 @@
                 "CS",
                 "data",
                 "actor",
-                "perprtrator"
+                "perpetrator"
             ]
         },
         {
@@ -41,7 +41,16 @@
                 "CS",
                 "data",
                 "actor",
-                "perprtrator"
+                "perpetrator"
+            ]
+        },
+        {
+            "id": "e4",
+            "label": "types of personal data",
+            "type": "data",
+            "tags": [
+                "CS",
+                "data"
             ]
         },
         {
@@ -53,7 +62,7 @@
                 "CS",
                 "data",
                 "actor",
-                "perprtrator"
+                "perpetrator"
             ]
         },
         {
@@ -65,7 +74,7 @@
                 "CS",
                 "data",
                 "actor",
-                "perprtrator"
+                "perpetrator"
             ]
         },
         {
@@ -77,7 +86,7 @@
                 "CS",
                 "data",
                 "actor",
-                "perprtrator"
+                "perpetrator"
             ]
         },
         {
@@ -89,7 +98,215 @@
                 "CS",
                 "data",
                 "actor",
-                "perprtrator"
+                "perpetrator"
+            ]
+        },
+        {
+            "id": "e04",
+            "label": "Intelius",
+            "type": "data broker",
+            "link": "https://www.intelius.com/",
+            "tags": [
+                "CS",
+                "data",
+                "actor",
+                "perpetrator"
+            ],
+            "note": "Suggested by Github Copilot and manually verified as a real site."
+        },
+        {
+            "id": "e05",
+            "label": "PeopleFinders",
+            "type": "data broker",
+            "link": "https://www.intelius.com/",
+            "tags": [
+                "CS",
+                "data",
+                "actor",
+                "perpetrator"
+            ],
+            "note": "Suggested by Github Copilot and manually verified as a real site."
+        },
+        {
+            "id": "e06",
+            "label": "Instant Checkmate",
+            "type": "data broker",
+            "link": "https://www.instantcheckmate.com/",
+            "tags": [
+                "CS",
+                "data",
+                "actor",
+                "perpetrator"
+            ],
+            "note": "Suggested by Github Copilot and manually verified as a real site."
+        },
+        {
+            "id": "e07",
+            "label": "Whitepages",
+            "type": "data broker",
+            "link": "https://www.whitepages.com/",
+            "tags": [
+                "CS",
+                "data",
+                "actor",
+                "perpetrator"
+            ],
+            "note": "Suggested by Github Copilot and manually verified as a real site."
+        },
+        {
+            "id": "e08",
+            "label": "ZabaSearch",
+            "type": "data broker",
+            "link": "https://www.zabasearch.com/",
+            "tags": [
+                "CS",
+                "data",
+                "actor",
+                "perpetrator"
+            ],
+            "note": "Suggested by Github Copilot and manually verified as a real site."
+        },
+        {
+            "id": "e09",
+            "label": "PeopleSmart",
+            "type": "data broker",
+            "link": "https://www.peoplesmart.com/",
+            "tags": [
+                "CS",
+                "data",
+                "actor",
+                "perpetrator"
+            ],
+            "note": "Suggested by Github Copilot and manually verified as a real site."
+        },
+        {
+            "id": "e10",
+            "label": "PeopleLooker",
+            "type": "data broker",
+            "link": "https://www.peoplelooker.com/",
+            "tags": [
+                "CS",
+                "data",
+                "actor",
+                "perpetrator"
+            ],
+            "note": "Suggested by Github Copilot and manually verified as a real site."
+        },
+        {
+            "id": "e40",
+            "label": "browsing history",
+            "type": "type of personal data",
+            "tags": [
+                "CS",
+                "data"
+            ]
+        },
+        {
+            "id": "e41",
+            "label": "name",
+            "type": "type of personal data",
+            "tags": [
+                "CS",
+                "data"
+            ]
+        },
+        {
+            "id": "e42",
+            "label": "address",
+            "type": "type of personal data",
+            "tags": [
+                "CS",
+                "data"
+            ]
+        },
+        {
+            "id": "e43",
+            "label": "phone number",
+            "type": "type of personal data",
+            "tags": [
+                "CS",
+                "data"
+            ]
+        },
+        {
+            "id": "e44",
+            "label": "email address",
+            "type": "type of personal data",
+            "tags": [
+                "CS",
+                "data"
+            ]
+        },
+        {
+            "id": "e45",
+            "label": "social media profile",
+            "type": "type of personal data",
+            "tags": [
+                "CS",
+                "data"
+            ]
+        },
+        {
+            "id": "e46",
+            "label": "credit card number",
+            "type": "type of personal data",
+            "tags": [
+                "CS",
+                "data"
+            ]
+        },
+        {
+            "id": "e47",
+            "label": "bank account number",
+            "type": "type of personal data",
+            "tags": [
+                "CS",
+                "data"
+            ]
+        },
+        {
+            "id": "e48",
+            "label": "date of birth",
+            "type": "type of personal data",
+            "tags": [
+                "CS",
+                "data"
+            ]
+        },
+        {
+            "id": "e49",
+            "label": "driver's license number",
+            "type": "type of personal data",
+            "tags": [
+                "CS",
+                "data"
+            ]
+        },
+        {
+            "id": "e4a",
+            "label": "passport number",
+            "type": "type of personal data",
+            "tags": [
+                "CS",
+                "data"
+            ]
+        },
+        {
+            "id": "e4b",
+            "label": "medical records",
+            "type": "type of personal data",
+            "tags": [
+                "CS",
+                "data"
+            ]
+        },
+        {
+            "id": "e4c",
+            "label": "social security number",
+            "type": "type of personal data",
+            "tags": [
+                "CS",
+                "data"
             ]
         }
     ],
@@ -114,13 +331,180 @@
             "to": "e3",
             "label": "sells to",
             "direction": "directed"
+        },{
+            "id": "c0e4",
+            "from": "e0",
+            "to": "e4",
+            "label": "sells",
+            "direction": "directed"
         },
         {
             "id": "c0e00",
             "from": "e0",
             "to": "e00",
             "label": "sells to",
-            "direction": "example"
+            "direction": "undirected"
+        },
+        {
+            "id": "c0e01",
+            "from": "e0",
+            "to": "e01",
+            "label": "sells to",
+            "direction": "undirected"
+        },
+        {
+            "id": "c0e02",
+            "from": "e0",
+            "to": "e02",
+            "label": "sells to",
+            "direction": "undirected"
+        },
+        {
+            "id": "c0e03",
+            "from": "e0",
+            "to": "e03",
+            "label": "sells to",
+            "direction": "undirected"
+        },
+        {
+            "id": "c0e04",
+            "from": "e0",
+            "to": "e04",
+            "label": "sells to",
+            "direction": "undirected"
+        },
+        {
+            "id": "c0e05",
+            "from": "e0",
+            "to": "e05",
+            "label": "sells to",
+            "direction": "undirected"
+        },
+        {
+            "id": "c0e06",
+            "from": "e0",
+            "to": "e06",
+            "label": "sells to",
+            "direction": "undirected"
+        },
+        {
+            "id": "c0e07",
+            "from": "e0",
+            "to": "e07",
+            "label": "sells to",
+            "direction": "undirected"
+        },
+        {
+            "id": "c0e08",
+            "from": "e0",
+            "to": "e08",
+            "label": "sells to",
+            "direction": "undirected"
+        },
+        {
+            "id": "c0e09",
+            "from": "e0",
+            "to": "e09",
+            "label": "sells to",
+            "direction": "undirected"
+        },
+        {
+            "id": "c0e10",
+            "from": "e0",
+            "to": "e10",
+            "label": "sells to",
+            "direction": "undirected"
+        },
+        {
+            "id": "c4e40",
+            "from": "e4",
+            "to": "e40",
+            "label": "type of personal data",
+            "direction": "undirected"
+        },
+        {
+            "id": "c4e41",
+            "from": "e4",
+            "to": "e41",
+            "label": "type of personal data",
+            "direction": "undirected"
+        },
+        {
+            "id": "c4e42",
+            "from": "e4",
+            "to": "e42",
+            "label": "type of personal data",
+            "direction": "undirected"
+        },
+        {
+            "id": "c4e43",
+            "from": "e4",
+            "to": "e43",
+            "label": "type of personal data",
+            "direction": "undirected"
+        },
+        {
+            "id": "c4e44",
+            "from": "e4",
+            "to": "e44",
+            "label": "type of personal data",
+            "direction": "undirected"
+        },
+        {
+            "id": "c4e45",
+            "from": "e4",
+            "to": "e45",
+            "label": "type of personal data",
+            "direction": "undirected"
+        },
+        {
+            "id": "c4e46",
+            "from": "e4",
+            "to": "e46",
+            "label": "type of personal data",
+            "direction": "undirected"
+        },
+        {
+            "id": "c4e47",
+            "from": "e4",
+            "to": "e47",
+            "label": "type of personal data",
+            "direction": "undirected"
+        },
+        {
+            "id": "c4e48",
+            "from": "e4",
+            "to": "e48",
+            "label": "type of personal data",
+            "direction": "undirected"
+        },
+        {
+            "id": "c4e49",
+            "from": "e4",
+            "to": "e49",
+            "label": "type of personal data",
+            "direction": "undirected"
+        },
+        {
+            "id": "c4e4a",
+            "from": "e4",
+            "to": "e4a",
+            "label": "type of personal data",
+            "direction": "undirected"
+        },
+        {
+            "id": "c4e4b",
+            "from": "e4",
+            "to": "e4b",
+            "label": "type of personal data",
+            "direction": "undirected"
+        },
+        {
+            "id": "c4e4c",
+            "from": "e4",
+            "to": "e4c",
+            "label": "type of personal data",
+            "direction": "undirected"
         }
     ]
 }
