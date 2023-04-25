@@ -4,6 +4,7 @@
             "id": "e0",
             "label": "data processing",
             "type": "application",
+            "description": "",
             "tags": [
                 "CS",
                 "data science"
@@ -13,6 +14,7 @@
             "id": "e00",
             "label": "data subject",
             "type": "actor",
+            "description": "",
             "tags": [
                 "CS",
                 "data",
@@ -25,6 +27,7 @@
             "id": "e000",
             "label": "individual person",
             "type": "actor",
+            "description": "",
             "tags": [
                 "CS",
                 "data",
@@ -36,6 +39,7 @@
             "id": "e01",
             "label": "data controller",
             "type": "actor",
+            "description": "",
             "tags": [
                 "CS",
                 "data",
@@ -48,6 +52,7 @@
             "id": "e010",
             "label": "data broker",
             "type": "actor",
+            "description": "",
             "tags": [
                 "CS",
                 "data",
@@ -59,6 +64,7 @@
             "id": "e011",
             "label": "governments",
             "type": "actor",
+            "description": "",
             "tags": [
                 "CS",
                 "data",
@@ -81,6 +87,7 @@
             "id": "e013",
             "label": "private entities",
             "type": "actor",
+            "description": "",
             "tags": [
                 "CS",
                 "data",
@@ -92,6 +99,7 @@
             "id": "e014",
             "label": "General Data Protection Regulation (GDPR)",
             "type": "regulation",
+            "description": "",
             "tags": [
                 "CS",
                 "data",
@@ -103,6 +111,7 @@
             "id": "e02",
             "label": "data processor",
             "type": "actor",
+            "description": "",
             "tags": [
                 "CS",
                 "data",
@@ -115,6 +124,7 @@
             "id": "e03",
             "label": "big data",
             "type": "thing",
+            "description": "",
             "tags": [
                 "CS",
                 "data"
@@ -124,6 +134,7 @@
             "id": "e1",
             "label": "computer science",
             "type": "field",
+            "description": "",
             "tags": [
                 "CS"
             ]
@@ -132,6 +143,7 @@
             "id": "e10",
             "label": "artificial intelligence (AI)",
             "type": "domain",
+            "description": "",
             "tags": [
                 "CS",
                 "AI"
@@ -141,6 +153,7 @@
             "id": "e11",
             "label": "machine learning (ML)",
             "type": "domain",
+            "description": "",
             "tags": [
                 "CS",
                 "ML"
@@ -150,6 +163,7 @@
             "id": "e12",
             "label": "natural language processing (NLP)",
             "type": "domain",
+            "description": "",
             "tags": [
                 "CS",
                 "NLP"
@@ -169,6 +183,7 @@
             "id": "e121",
             "label": "NLP/CV Applications",
             "type": "domain",
+            "description": "",
             "examples": [
                 "image captioning",
                 "video captioning"
@@ -183,6 +198,7 @@
             "id": "e13",
             "label": "computer vision (CV)",
             "type": "domain",
+            "description": "",
             "tags": [
                 "CS",
                 "CV"
@@ -192,6 +208,7 @@
             "id": "e130",
             "label": "CV Applications",
             "type": "domain",
+            "description": "",
             "examples": [
                 "image recognition",
                 "self-driving cars",
@@ -207,6 +224,7 @@
             "id": "e14",
             "label": "data science",
             "type": "domain",
+            "description": "",
             "tags": [
                 "CS",
                 "data science"
@@ -216,6 +234,7 @@
             "id": "e15",
             "label": "internet of things (IoT)",
             "type": "domain",
+            "description": "",
             "tags": [
                 "CS",
                 "EE",
@@ -226,6 +245,7 @@
             "id": "e150",
             "label": "location data",
             "type": "data source",
+            "description": "",
             "tags": [
                 "CS",
                 "EE",
@@ -238,6 +258,7 @@
             "id": "e151",
             "label": "usage data",
             "type": "data source",
+            "description": "",
             "tags": [
                 "CS",
                 "EE",
@@ -250,6 +271,7 @@
             "id": "e152",
             "label": "communication data",
             "type": "data source",
+            "description": "",
             "tags": [
                 "CS",
                 "EE",
@@ -262,6 +284,7 @@
             "id": "e153",
             "label": "wifi history",
             "type": "data source",
+            "description": "",
             "tags": [
                 "CS",
                 "EE",
@@ -274,6 +297,7 @@
             "id": "e154",
             "label": "nearby devices",
             "type": "data source",
+            "description": "",
             "tags": [
                 "CS",
                 "EE",
@@ -286,6 +310,7 @@
             "id": "e155",
             "label": "related devices",
             "type": "data source",
+            "description": "",
             "tags": [
                 "CS",
                 "EE",
@@ -298,6 +323,7 @@
             "id": "e156",
             "label": "friends' devices",
             "type": "data source",
+            "description": "",
             "tags": [
                 "CS",
                 "EE",
@@ -310,6 +336,7 @@
             "id": "e150",
             "label": "IoT Applications",
             "type": "domain",
+            "description": "",
             "examples": [
                 "smart devices",
                 "smart home",
@@ -328,6 +355,7 @@
             "id": "e2",
             "label": "human rights",
             "type": "field",
+            "description": "",
             "tags": [
                 "HR"
             ]
@@ -336,6 +364,7 @@
             "id": "e3",
             "label": "statistics",
             "type": "field",
+            "description": "",
             "tags": [
                 "stats"
             ]
@@ -344,6 +373,7 @@
             "id": "e4",
             "label": "electrical engineering",
             "type": "field",
+            "description": "",
             "tags": [
                 "EE"
             ]
