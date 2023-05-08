@@ -54,7 +54,7 @@
             },
             {
                 "title": "Bing Chat",
-                "link": "https: //www.microsoft.com/en-us/bing",
+                "link": "https://www.microsoft.com/en-us/bing",
                 "description": "The new Bing Chat feature of the Bing web browser is an interactive chatbot that can repeatedly refine searches, summarize and directly cite search results, and generate text from a prompt. Bing Chat is built off of the GPT-4 language generation model but has web search capabilities built-in which provides more accuracy in citations than ChatGPT.",
                 "year": 2023,
                 "tags": [
@@ -126,7 +126,7 @@
             },
             {
                 "title": "BLOOM",
-                "link": "https: //bigscience.huggingface.co/blog/bloom",
+                "link": "https://bigscience.huggingface.co/blog/bloom",
                 "description": "",
                 "documentation link": "https://huggingface.co/bigscience/bloom",
                 "year": 2022,
@@ -160,6 +160,23 @@
                     "chatbot",
                     "Google"
                 ]
+            }
+        ],
+        "Content Moderation": [
+            {
+                "title": "The Growing Role Of AI In Content Moderation",
+                "link": "https://www.forbes.com/sites/forbestechcouncil/2022/06/14/the-growing-role-of-ai-in-content-moderation/?sh=51fb4b6b4a17",
+                "description": "This article describes some of the broader issues of content moderation and how AI can help, specifically regarding the massive amounts of data."
+            },
+            {
+                "title": "Facebook is now using AI to sort content for quicker moderation",
+                "link": "https://www.theverge.com/2020/11/13/21562596/facebook-ai-moderation",
+                "description": "This article outlines how Facebook is using AI to sort content for more effective and more ethical moderation."
+            },
+            {
+                "title": "BODIES IN SEATS: At Facebook's worst-performing content moderation site in North America, one contractor has died, and others say they fear for their lives",
+                "link": "https://www.theverge.com/2019/6/19/18681845/facebook-moderator-interviews-video-trauma-ptsd-cognizant-tampa",
+                "description": "This article describes the risks of manual content moderation, especially focusing on the toll manual content moderation takes on workers."
             }
         ],
         "Web-Based Coding Tools": [
