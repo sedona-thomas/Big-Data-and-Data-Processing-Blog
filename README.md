@@ -15,7 +15,7 @@
 ## Links
 
 * Blog Home: [https://tedperl.sandbox.library.columbia.edu/HRTS42702023/hrsm-2023/big-data-and-data-processing?t=1679263679195](https://tedperl.sandbox.library.columbia.edu/HRTS42702023/hrsm-2023/big-data-and-data-processing?t=1679263679195)  
-* Main Kumu Map: https://kumu.io/sedona/blog-project-data-brokers#main
+* Main Kumu Map: https://kumu.io/sedona/blog-project-data-processing
 * AI/ML Tools Kumu Map: https://kumu.io/sedona/aiml-tools#main
 * Data Brokers Kumu Map: https://kumu.io/sedona/blog-project-data-brokers#main
 * Wakelet First Draft: [https://wakelet.com/wake/epooUD_sAayY5FIWw69JM](https://wakelet.com/wake/epooUD_sAayY5FIWw69JM) (links and descriptions for final draft in `Wakelet/links.json` as well as tags, can be repurposed to generate HTML pages outside of Wakelet)
